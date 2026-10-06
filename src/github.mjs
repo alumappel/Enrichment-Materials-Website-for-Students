@@ -1,7 +1,9 @@
 import { assertData, applyChange, fetchJson } from './core.mjs';
 
 export class GitHubError extends Error {
-  constructor(message, status = 0) { super(message); this.name = 'GitHubError'; this.status = status; }
+  constructor(message, status = 0, code = 'GITHUB_ERROR') {
+    super(message); this.name = 'GitHubError'; this.status = status; this.code = code;
+  }
 }
 export class ConflictError extends Error {
   constructor(latest) {
@@ -33,11 +35,14 @@ export function base64ToUtf8(value) {
 }
 
 export class GitHubClient {
-  constructor(config, token, fetcher = fetch) {
+  constructor(config, token, fetcher = fetch, { timeoutMs = 25000 } = {}) {
     const errors = validateConnection(config);
     if (errors.length) throw new GitHubError(errors.join('\n'));
     if (!token) throw new GitHubError('הזינו מפתח גישה של GitHub לחיבור כתיבה');
-    this.config = { ...config }; this.token = token; this.fetcher = fetcher;
+    if (typeof token !== 'string' || !/^[\x21-\x7e]+$/.test(token)) {
+      throw new GitHubError('מפתח הגישה מכיל רווחים או תווים שאינם תקינים. העתיקו מחדש את המפתח המלא מ־GitHub.', 0, 'INVALID_TOKEN_FORMAT');
+    }
+    this.config = { ...config }; this.token = token; this.fetcher = fetcher; this.timeoutMs = timeoutMs;
     this.base = `https://api.github.com/repos/${encodeURIComponent(config.owner)}/${encodeURIComponent(config.repo)}`;
     this.file = `/contents/${config.path.split('/').map(encodeURIComponent).join('/')}`;
   }
@@ -45,28 +50,62 @@ export class GitHubClient {
   async request(path, options = {}) {
     const target = new URL(this.base + path);
     if (!options.method || options.method === 'GET') target.searchParams.set('_', `${Date.now()}-${crypto.randomUUID()}`);
-    let response;
+    const method = options.method || 'GET';
+    const controller = new AbortController();
+    const startedAt = Date.now();
+    let timedOut = false, phase = 'fetch', response;
+    // Use AbortController so connection does not depend on AbortSignal.timeout support.
+    const timer = setTimeout(() => { timedOut = true; controller.abort(); }, this.timeoutMs);
     try {
       response = await this.fetcher(target.href, {
-        ...options, cache: 'no-store', signal: AbortSignal.timeout(25000),
+        ...options, cache: 'no-store', signal: controller.signal,
         headers: {
           Accept: 'application/vnd.github+json', Authorization: `Bearer ${this.token}`,
           'X-GitHub-Api-Version': '2022-11-28',
           ...(options.body ? { 'Content-Type': 'application/json' } : {}), ...options.headers
         }
       });
-    } catch { throw new GitHubError('החיבור ל־GitHub נקטע או התעכב. התוכן נשאר בטופס. בדקו מצב לפני ניסיון נוסף.'); }
-    if (!response.ok) {
-      const messages = {
-        401: 'מפתח הגישה אינו תקין או פג תוקפו. תקנו את החיבור.',
-        403: 'GitHub דחה את הפעולה. בדקו הרשאות כתיבה, הגבלת ענף או מגבלת בקשות.',
-        404: 'המאגר, הענף או קובץ התכנים לא נמצאו. בדקו גם את הרשאת המפתח למאגר.',
-        409: 'הקובץ השתנה במאגר. יש לטעון את הגרסה העדכנית לפני ניסיון נוסף.',
-        422: 'GitHub לא קיבל את העדכון. בדקו את הענף והנתיב בהגדרות.'
+      if (!response.ok) {
+        const messages = {
+          401: 'מפתח הגישה אינו תקין או פג תוקפו. תקנו את החיבור.',
+          403: 'GitHub דחה את הפעולה. בדקו הרשאות כתיבה, הגבלת ענף או מגבלת בקשות.',
+          404: 'המאגר, הענף או קובץ התכנים לא נמצאו. בדקו גם את הרשאת המפתח למאגר.',
+          409: 'הקובץ השתנה במאגר. יש לטעון את הגרסה העדכנית לפני ניסיון נוסף.',
+          422: 'GitHub לא קיבל את העדכון. בדקו את הענף והנתיב בהגדרות.'
+        };
+        throw new GitHubError(messages[response.status] || `הפעולה ב־GitHub נכשלה (${response.status}). התוכן נשאר בטופס.`, response.status, `HTTP_${response.status}`);
+      }
+      phase = 'response';
+      return await response.json();
+    } catch (cause) {
+      let error = cause;
+      if (!(error instanceof GitHubError)) {
+        const retry = method === 'PUT'
+          ? 'התוכן נשאר בטופס. ניסיון פרסום נוסף יבדוק תחילה אם העדכון כבר נשמר במאגר.'
+          : 'התוכן נשאר בטופס. נסו שוב לאחר בדיקת החיבור.';
+        if (timedOut || cause?.name === 'TimeoutError') {
+          error = new GitHubError(`GitHub לא השיב בזמן. ${retry}`, 0, 'TIMEOUT');
+        } else if (globalThis.navigator?.onLine === false) {
+          error = new GitHubError(`אין חיבור לאינטרנט. התחברו לרשת ונסו שוב. התוכן נשאר בטופס.`, 0, 'OFFLINE');
+        } else if (phase === 'response' && cause?.name === 'SyntaxError') {
+          error = new GitHubError(`התקבלה מ־GitHub תשובה שאינה JSON תקין. ${retry}`, response.status, 'INVALID_RESPONSE');
+        } else if (phase === 'response') {
+          error = new GitHubError(`החיבור נקטע במהלך קריאת התשובה מ־GitHub. ${retry}`, response.status, 'RESPONSE_READ_ERROR');
+        } else {
+          error = new GitHubError(`הדפדפן לא הצליח להתחבר ל־GitHub. בדקו את הרשת, חסימות גישה או תוספי הדפדפן. ${retry}`, 0, 'NETWORK_ERROR');
+        }
+      }
+      // Never log the original exception, URL, headers, token or request body.
+      const safeNames = ['TypeError', 'ReferenceError', 'AbortError', 'TimeoutError', 'SyntaxError', 'SecurityError', 'NotSupportedError', 'InvalidCharacterError', 'GitHubError'];
+      error.diagnostics = {
+        code: error.code, status: error.status, method, phase, durationMs: Date.now() - startedAt,
+        cause: safeNames.includes(cause?.name) ? cause.name : 'Error'
       };
-      throw new GitHubError(messages[response.status] || `הפעולה ב־GitHub נכשלה (${response.status}). התוכן נשאר בטופס.`, response.status);
+      console.warn('Enrichment: GitHub request failed', error.diagnostics);
+      throw error;
+    } finally {
+      clearTimeout(timer);
     }
-    return response.json();
   }
 
   async read() {
@@ -114,10 +153,13 @@ export class GitHubClient {
   }
 
   async publicationStatus(revision, commit) {
+    const controller = new AbortController();
+    const timer = setTimeout(() => controller.abort(), 12000);
     try {
-      const data = await fetchJson(this.publicDataUrl(), { fetcher: this.fetcher, signal: AbortSignal.timeout(12000) });
+      const data = await fetchJson(this.publicDataUrl(), { fetcher: this.fetcher, signal: controller.signal });
       if (data.revision === revision) return { state: 'published', text: 'פורסם באתר' };
     } catch { /* A deploy can temporarily leave the public file unavailable. */ }
+    finally { clearTimeout(timer); }
     if (commit) {
       try {
         const build = await this.request('/pages/builds/latest');

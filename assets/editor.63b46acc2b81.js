@@ -3,7 +3,7 @@ import {
   validateData, applyChange, selectItems, formatDate, localDateInput, israelInputToIso,
   embedLink, embedCode
 } from './core.7afeeec32df5.js';
-import { GitHubClient, ConflictError, validateConnection } from './github.e7d2d0f711b5.js';
+import { GitHubClient, ConflictError, validateConnection } from './github.3d2aeb384591.js';
 import { $, $$, el, icon, button, bilingual, contentCard, options, message, announce,
   showDialog, confirmAction, copyText } from './dom.9135b63e3c57.js';
 
