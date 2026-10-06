@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": "publication-727a1635-2ca7-4246-a610-a55b9e84ac60",
-  "updatedAt": "2026-10-06T07:02:39.573Z",
+  "revision": "publication-25bbd43f-99a1-43f2-8758-183ca5c8deff",
+  "updatedAt": "2026-10-06T07:03:14.508Z",
   "courses": [
     {
       "id": "unity",
@@ -40,7 +40,15 @@
       "name": "מדעי המחשב"
     }
   ],
-  "synonymGroups": [],
+  "synonymGroups": [
+    {
+      "id": "terms-6b35d3d5-e43c-4d71-bc58-e606d94adce4",
+      "terms": [
+        "unity",
+        "יוניטי"
+      ]
+    }
+  ],
   "items": [
     {
       "id": "item-0001",
