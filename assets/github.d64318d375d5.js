@@ -42,7 +42,9 @@ export class GitHubClient {
     if (typeof token !== 'string' || !/^[\x21-\x7e]+$/.test(token)) {
       throw new GitHubError('מפתח הגישה מכיל רווחים או תווים שאינם תקינים. העתיקו מחדש את המפתח המלא מ־GitHub.', 0, 'INVALID_TOKEN_FORMAT');
     }
-    this.config = { ...config }; this.token = token; this.fetcher = fetcher; this.timeoutMs = timeoutMs;
+    this.config = { ...config }; this.token = token;
+    // Browser fetch requires Window/WorkerGlobalScope as its receiver, not this client.
+    this.fetcher = fetcher.bind(globalThis); this.timeoutMs = timeoutMs;
     this.base = `https://api.github.com/repos/${encodeURIComponent(config.owner)}/${encodeURIComponent(config.repo)}`;
     this.file = `/contents/${config.path.split('/').map(encodeURIComponent).join('/')}`;
   }

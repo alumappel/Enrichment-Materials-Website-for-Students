@@ -128,6 +128,23 @@ test('connection works when the browser has no AbortSignal.timeout method', asyn
     else delete AbortSignal.timeout;
   }
 });
+test('browser fetch keeps its global receiver for connecting, publishing and checking the public site', async () => {
+  const mock = mockRepo();
+  let requests = 0;
+  function browserFetch(url, options) {
+    if (this !== globalThis) throw new TypeError("Failed to execute 'fetch' on 'Window': Illegal invocation");
+    requests++;
+    if (url.startsWith(config.pagesUrl)) return Promise.resolve(response({ revision: mock.data.revision }));
+    return mock.fetcher(url, options);
+  }
+  const client = new GitHubClient(config, 'fake', browserFetch);
+  const original = await client.read();
+  const published = await client.publish(change(original.data), original.sha);
+  assert.equal(published.data.revision, 'fixed-operation');
+  assert.equal(mock.writes, 1);
+  assert.equal((await client.publicationStatus('fixed-operation', published.commit)).state, 'published');
+  assert.equal(requests, 4);
+});
 test('network failure records useful diagnostics without exception text, token or request contents', async () => {
   const secret = 'super-secret-test-token';
   const client = new GitHubClient(config, secret, async () => { throw new TypeError(`Headers failed: ${secret}`); });
