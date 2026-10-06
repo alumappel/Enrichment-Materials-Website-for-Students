@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#F7F6F2">
+  <meta name="description" content="חומרי העשרה לסטודנטים — חיפוש, סינון וקישורים מכל הקורסים">
+  <title>חומרי העשרה</title>
+  <link rel="stylesheet" href="{{BOOTSTRAP}}">
+  <link rel="stylesheet" href="{{ICONS}}">
+  <link rel="stylesheet" href="{{STYLE}}">
+</head>
+<body class="public-body">
+  <a class="skip-link" href="#materials-region">דילוג לחומרי העשרה</a>
+  <main class="public-app container-fluid">
+    <div id="public-controls" class="public-controls">
+      <header class="library-header library-banner">
+        <div class="library-identity"><div class="brand-mark" aria-hidden="true"><i class="fi-rr-books icon"></i></div><div><h1>חומרי העשרה</h1><p id="scope-title" class="scope-title">מכל הקורסים</p></div></div>
+        <img class="library-buddies" src="{{BUDDIES}}" width="1774" height="887" alt="" aria-hidden="true" decoding="async" fetchpriority="high">
+      </header>
+      <div id="course-warning" class="alert alert-warning" role="status" hidden></div>
+      <div class="search-controls">
+        <div class="search-control">
+          <label class="visually-hidden" for="search-input">חיפוש בחומרי העשרה</label>
+          <div class="search-field">
+            <i class="fi-rr-search icon search-icon" aria-hidden="true"></i>
+            <input type="search" id="search-input" class="form-control" placeholder="נושא, כלי או מונח…" aria-describedby="search-help" autocomplete="off" disabled>
+            <button type="button" id="clear-search" class="btn clear-search" aria-label="ניקוי החיפוש" hidden><i class="fi-rr-cross icon" aria-hidden="true"></i></button>
+          </div>
+          <div class="visually-hidden" id="search-help">חפשו נושא, כלי או מונח בעברית או באנגלית</div>
+        </div>
+        <div class="course-control" id="course-control">
+          <label class="visually-hidden" for="course-select">קורס</label>
+          <select id="course-select" class="form-select" disabled><option value="">כל הקורסים</option></select>
+        </div>
+        <div id="type-dropdown" class="type-dropdown">
+          <button id="type-toggle" type="button" class="btn btn-outline-secondary type-toggle" aria-expanded="false" aria-controls="type-filter-panel"><i class="fi-rr-filter icon" aria-hidden="true"></i><span id="type-filter-label">סוג התוכן</span><i class="fi-rr-angle-small-down icon filter-caret" aria-hidden="true"></i></button>
+          <div id="type-filter-panel" class="type-filter-panel" hidden>
+            <fieldset><legend class="visually-hidden">סינון לפי סוג התוכן — אפשר לבחור כמה סוגים</legend><div id="type-filters" class="type-filters"></div></fieldset>
+            <div class="filter-panel-actions"><button id="clear-types" class="btn btn-outline-secondary" type="button">כל הסוגים</button><button id="close-types" class="btn btn-outline-primary" type="button">סיום</button></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section id="materials-region" class="materials-region" tabindex="0" aria-label="חומרי העשרה ותוצאות החיפוש" aria-busy="true">
+      <div id="loading-state" class="empty-panel" role="status"><span class="loading-dot" aria-hidden="true"></span><h2>טוענים חומרי העשרה</h2></div>
+      <div id="error-state" class="empty-panel" hidden><div class="state-icon" aria-hidden="true"><i class="fi-rr-exclamation icon"></i></div><h2>לא הצלחנו לטעון את החומרים</h2><p id="error-detail"></p><button id="retry-load" class="btn btn-primary" type="button">ניסיון נוסף</button></div>
+      <div id="empty-state" class="empty-panel" hidden><div class="state-icon" aria-hidden="true"><i class="fi-rr-search icon"></i></div><h2 id="empty-title"></h2><p id="empty-description"></p><button id="reset-filters" class="btn btn-outline-primary" type="button">ניקוי החיפוש והסינון</button></div>
+      <div id="materials-grid" class="row g-4"></div>
+      <div class="load-more-area"><button type="button" id="load-more" class="btn btn-outline-primary" hidden>טעינת חומרים נוספים <i class="fi-rr-plus icon" aria-hidden="true"></i></button><p id="list-end" class="list-end" hidden>כל החומרים המתאימים מוצגים</p></div>
+      <footer class="site-footer"><p class="ai-credit">פותח בעזרת AI</p><div class="icon-credit" lang="en" dir="ltr">Uicons by <a href="https://www.flaticon.com/uicons" target="_blank" rel="noopener noreferrer" aria-label="Flaticon — icon credits (opens in a new tab)">Flaticon</a></div></footer>
+    </section>
+  </main>
+  <p id="live-status" class="visually-hidden" role="status" aria-live="polite" aria-atomic="true"></p>
+  <noscript><p class="alert alert-warning">יש להפעיל JavaScript בדפדפן כדי לחפש ולהציג את החומרים.</p></noscript>
+  <script type="module" src="{{PUBLIC}}"></script>
+</body>
+</html>

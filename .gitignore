@@ -1,0 +1,4 @@
+node_modules/
+.local/
+*.log
+vendor/uicons/license-private.*

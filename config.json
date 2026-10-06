@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "login": {
+    "username": "lecturer",
+    "salt": "enrichment-local-demo-v1",
+    "passwordHash": "74af912fd0219f09dc366f520ca0cbeeacb2cfa99c790ea3b4bf44faa4b9aa43"
+  },
+  "github": {
+    "owner": "",
+    "repo": "",
+    "branch": "main",
+    "path": "data/content.json",
+    "pagesUrl": ""
+  }
+}

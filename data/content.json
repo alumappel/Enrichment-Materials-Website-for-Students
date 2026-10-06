@@ -1,0 +1,1782 @@
+{
+  "schemaVersion": 1,
+  "revision": "import-20261005-002",
+  "updatedAt": "2026-10-05T14:51:59Z",
+  "courses": [
+    {
+      "id": "unity",
+      "name": "פיתוח משחקים (יוניטי)"
+    },
+    {
+      "id": "web-development",
+      "name": "פיתוח אתרי אינטרנט"
+    },
+    {
+      "id": "web-design",
+      "name": "אפיון אתרי אינטרנט"
+    },
+    {
+      "id": "learning-technologies",
+      "name": "מבוא לטכנולוגיות למידה"
+    },
+    {
+      "id": "accessibility",
+      "name": "נגישות"
+    },
+    {
+      "id": "design",
+      "name": "עיצוב"
+    },
+    {
+      "id": "learning-skills",
+      "name": "כישורי למידה"
+    },
+    {
+      "id": "other",
+      "name": "אחר"
+    },
+    {
+      "id": "computer-science",
+      "name": "מדעי המחשב"
+    }
+  ],
+  "synonymGroups": [],
+  "items": [
+    {
+      "id": "item-0001",
+      "addedAt": "2026-10-05T00:00:00Z",
+      "updatedAt": "2026-10-05T14:46:55Z",
+      "title": "אשליות חזותיות ביצירת מים במשחק",
+      "description": "הדגמה של יצירת מראה של מים ומפל בעולם משחק באמצעות אפקטים חזותיים.",
+      "type": "video",
+      "url": "https://www.instagram.com/coolbuggames/reel/DbGyeQtn1lX/",
+      "courseIds": [
+        "unity"
+      ],
+      "keywords": [],
+      "status": "published"
+    },
+    {
+      "id": "item-0002",
+      "addedAt": "2026-10-05T00:00:00Z",
+      "updatedAt": "2026-10-05T14:46:55Z",
+      "title": "הכוונה עיצובית לאפליקציות שנבנות עם AI",
+      "description": "שימוש בדוגמאות השראה, הנחיות מדויקות, מדריך סגנון ו-Figma כדי להגדיר את העיצוב בתהליך בניית אפליקציה עם AI.",
+      "type": "video",
+      "url": "https://www.instagram.com/janustiu/reel/DeF_n47Ob6B/",
+      "courseIds": [
+        "web-development",
+        "web-design"
+      ],
+      "keywords": [],
+      "status": "published"
+    },
+    {
+      "id": "item-0003",
+      "addedAt": "2026-10-05T00:00:00Z",
+      "updatedAt": "2026-10-05T14:46:55Z",
+      "title": "בניית מערכת אנימציה חלופית ב-Unity",
+      "description": "מפתח משחק מציג מערכת אנימציה שבנה בעקבות קשיים בעבודה עם ה-Animator של Unity.",
+      "type": "video",
+      "url": "https://www.instagram.com/meowartsgames/reel/DeCYnvdT8ZM/",
+      "courseIds": [
+        "unity"
+      ],
+      "keywords": [],
+      "status": "published"
+    },
+    {
+      "id": "item-0004",
+      "addedAt": "2026-10-05T00:00:00Z",
+      "updatedAt": "2026-10-05T14:46:55Z",
+      "title": "המחשת מצבי ראייה שונים",
+      "description": "הדגמת מגוון מצבי ראייה באמצעות משקפי סימולציה, כהמחשה לכך שעיוורון ולקויות ראייה אינם חוויה אחידה.",
+      "type": "video",
+      "url": "https://www.instagram.com/blindonthemove/reel/DcrdJZWh66l/",
+      "courseIds": [
+        "accessibility"
+      ],
+      "keywords": [],
+      "status": "published"
+    },
+    {
+      "id": "item-0005",
+      "addedAt": "2026-10-05T00:00:00Z",
+      "updatedAt": "2026-10-05T14:46:55Z",
+      "title": "ניסוח כפתורים שמעורר אשמה — הצד האפל של UX, חלק 4",
+      "description": "דיון בשימוש בניסוח מעורר אשמה בכפתורי סירוב ובהשפעתו על בחירות המשתמשים.",
+      "type": "video",
+      "url": "https://www.instagram.com/synsation_/reel/Db7OvXgttSp/",
+      "courseIds": [
+        "web-design"
+      ],
+      "keywords": [],
+      "status": "published"
+    },
+    {
+      "id": "item-0006",
+      "addedAt": "2026-10-05T00:00:00Z",
+      "updatedAt": "2026-10-05T14:46:55Z",
+      "title": "ארגון ועיצוב רכיבי ממשק ב-Unity",
+      "description": "מדריך לארגון רכיבי ממשק באמצעות Prefabs ולשימוש ב-Nine Slicing עבור חלוניות, תיבות טקסט ולוחות אינטראקטיביים.",
+      "type": "video",
+      "url": "https://www.instagram.com/bladesofapocalypse/reel/DcaJ3bbGZDf/",
+      "courseIds": [
+        "unity"
+      ],
+      "keywords": [],
+      "status": "published"
+    },
+    {
+      "id": "item-0007",
+      "addedAt": "2026-10-05T00:00:00Z",
+      "updatedAt": "2026-10-05T14:46:55Z",
+      "title": "אב־טיפוס לבקר משחק נגיש",
+      "description": "הצגת אב־טיפוס של בקר משחק מודפס בתלת־ממד, בהקשר של התאמת משחקים לשחקנים עם מוגבלות.",
+      "type": "video",
+      "url": "https://www.instagram.com/caleb_kraft/reel/DcWF3oXRRFo/",
+      "courseIds": [
+        "accessibility",
+        "unity"
+      ],
+      "keywords": [],
+      "status": "published"
+    },
+    {
+      "id": "item-0008",
+      "addedAt": "2026-10-05T00:00:00Z",
+      "updatedAt": "2026-10-05T14:46:55Z",
+      "title": "הכשרה למניעת הטרדה או פנטזיה רומנטית?",
+      "description": "קטע הומוריסטי על ניסוח התוכן בהכשרה ארגונית חובה למניעת הטרדה.",
+      "type": "video",
+      "url": "https://www.instagram.com/_fitfiction/reel/DawWPrzN4fC/",
+      "courseIds": [
+        "learning-technologies"
+      ],
+      "keywords": [],
+      "status": "published"
+    },
+    {
+      "id": "item-0009",
+      "addedAt": "2026-10-05T00:00:00Z",
+      "updatedAt": "2026-10-05T14:46:55Z",
+      "title": "שימוש ב-AI לפיתוח פתרון נגישות",
+      "description": "הצגת שימוש ב-AI בהקשר של התאמת טכנולוגיה מסייעת לאדם עם מוגבלות מוטורית.",
+      "type": "video",
+      "url": "https://www.instagram.com/narbehouse/reel/DbWxU9Yp-JE/",
+      "courseIds": [
+        "accessibility",
+        "learning-technologies"
+      ],
+      "keywords": [],
+      "status": "published"
+    },
+    {
+      "id": "item-0010",
+      "addedAt": "2026-10-05T00:00:00Z",
+      "updatedAt": "2026-10-05T14:46:55Z",
+      "title": "אתר אינטראקטיבי של אמנות דיגיטלית",
+      "description": "הצגת אתר המשלב אינטראקציה ואמנות דיגיטלית כחוויית גלישה.",
+      "type": "video",
+      "url": "https://www.instagram.com/tabunlocked1/reel/DaTyg37EWnc/",
+      "courseIds": [
+        "web-development",
+        "web-design"
+      ],
+      "keywords": [],
+      "status": "published"
+    },
+    {
+      "id": "item-0011",
+      "addedAt": "2026-10-05T00:00:00Z",
+      "updatedAt": "2026-10-05T14:46:55Z",
+      "title": "שליטה בשבירת שורות טקסט באמצעות CSS",
+      "description": "הסבר על text-wrap: pretty למניעת מילים בודדות בסוף פסקה ועל text-wrap: balance לאיזון אורך השורות.",
+      "type": "video",
+      "url": "https://www.instagram.com/techwithbecca/reel/DaVpAJRgPWM/",
+      "courseIds": [
+        "web-development"
+      ],
+      "keywords": [],
+      "status": "published"
+    },
+    {
+      "id": "item-0012",
+      "addedAt": "2026-10-05T00:00:00Z",
+      "updatedAt": "2026-10-05T14:46:55Z",
+      "title": "הרשאות וסיכוני אבטחה ב-Skills של Claude",
+      "description": "דיון בסיכונים אפשריים של Skills ממקורות חיצוניים ושל הרשאות רחבות לכלים, כולל גישה למידע ולמצלמה.",
+      "type": "video",
+      "url": "https://www.instagram.com/ai.gaya/reel/DZsYNM_MAOX/",
+      "courseIds": [
+        "web-development"
+      ],
+      "keywords": [],
+      "status": "published"
+    },
+    {
+      "id": "item-0013",
+      "addedAt": "2026-10-05T00:00:00Z",
+      "updatedAt": "2026-10-05T14:46:55Z",
+      "title": "שמירת שינויים בפיתוח עם AI באמצעות ענפי Git",
+      "description": "הסבר על שימוש בענפים ב-Git כדי לנהל ולשמור שינויים בתהליך פיתוח בעזרת AI.",
+      "type": "video",
+      "url": "https://www.instagram.com/itsthatlady.dev/reel/DZ-AORszRRS/",
+      "courseIds": [
+        "web-development"
+      ],
+      "keywords": [],
+      "status": "published"
+    },
+    {
+      "id": "item-0014",
+      "addedAt": "2026-10-05T00:00:00Z",
+      "updatedAt": "2026-10-05T14:46:55Z",
+      "title": "חמישה אתרים למפתחים שבונים עם AI",
+      "description": "הצגת חמישה אתרים המסייעים בתהליך בניית אתרים עם AI.",
+      "type": "video",
+      "url": "https://www.instagram.com/nelehacks/reel/DZ4Eh5UPyMb/",
+      "courseIds": [
+        "web-development",
+        "web-design"
+      ],
+      "keywords": [],
+      "status": "published"
+    },
+    {
+      "id": "item-0015",
+      "addedAt": "2026-10-05T00:00:00Z",
+      "updatedAt": "2026-10-05T14:46:55Z",
+      "title": "Skills לעיצוב ממשקים ב-Claude Code",
+      "description": "הצגת Skills של Emil Kowalski, Impeccable ו-Taste עבור תנועה, טיפוגרפיה, ריווח, פריסה וסגנון חזותי בפיתוח ממשקים.",
+      "type": "video",
+      "url": "https://www.instagram.com/duncanrogoff/reel/DX_q_jqoLWN/",
+      "courseIds": [
+        "web-development",
+        "web-design"
+      ],
+      "keywords": [],
+      "status": "published"
+    },
+    {
+      "id": "item-0016",
+      "addedAt": "2026-10-05T00:00:00Z",
+      "updatedAt": "2026-10-05T14:46:55Z",
+      "title": "מהו API?",
+      "description": "הסבר על המושג API ועל תפקידו בתקשורת בין מערכות.",
+      "type": "video",
+      "url": "https://www.instagram.com/sayed.developer/reel/DWuY_suDUqB/",
+      "courseIds": [
+        "web-development"
+      ],
+      "keywords": [],
+      "status": "published"
+    },
+    {
+      "id": "item-0017",
+      "addedAt": "2026-10-05T00:00:00Z",
+      "updatedAt": "2026-10-05T14:46:55Z",
+      "title": "היררכיה חזותית באמצעות סוגי כפתורים",
+      "description": "הדגמת שילוב בין כפתור ראשי לכפתור Ghost כדי להבחין בין חשיבותן של פעולות בממשק.",
+      "type": "video",
+      "url": "https://www.instagram.com/zanderwhitehurst/reel/DW3nH1YCIRC/",
+      "courseIds": [
+        "web-design"
+      ],
+      "keywords": [],
+      "status": "published"
+    },
+    {
+      "id": "item-0018",
+      "addedAt": "2026-10-05T00:00:00Z",
+      "updatedAt": "2026-10-05T14:46:55Z",
+      "title": "שלוש גישות חזותיות לעיצוב אתרים",
+      "description": "הצגת שלושה כיווני עיצוב: מבנה מודולרי, שינויי צורה ועיצוב מונוכרומטי.",
+      "type": "video",
+      "url": "https://www.instagram.com/deathtostock/reel/DTl1napEh9J/",
+      "courseIds": [
+        "web-design"
+      ],
+      "keywords": [],
+      "status": "published"
+    },
+    {
+      "id": "item-0019",
+      "addedAt": "2026-10-05T00:00:00Z",
+      "updatedAt": "2026-10-05T14:46:55Z",
+      "title": "הודעות שגיאה מובנות — חוויית משתמש, חלק 5",
+      "description": "דיון בהצגת הודעות שגיאה שמשתמשים יכולים להבין, במקום הודעות טכניות וקוד.",
+      "type": "video",
+      "url": "https://www.instagram.com/synsation_/reel/DYr7cKLIQo6/",
+      "courseIds": [
+        "web-design"
+      ],
+      "keywords": [],
+      "status": "published"
+    },
+    {
+      "id": "item-0020",
+      "addedAt": "2026-10-05T00:00:00Z",
+      "updatedAt": "2026-10-05T14:46:55Z",
+      "title": "חמישה סוגי תחתית עמוד באתר",
+      "description": "הצגת אפשרויות לעיצוב Footer והתפקידים שלהן במיתוג, בניווט ובהנעת משתמשים לפעולה.",
+      "type": "video",
+      "url": "https://www.instagram.com/zachex/reel/DYIRUT2Mwwj/",
+      "courseIds": [
+        "web-design"
+      ],
+      "keywords": [],
+      "status": "published"
+    },
+    {
+      "id": "item-0021",
+      "addedAt": "2026-10-05T00:00:00Z",
+      "updatedAt": "2026-10-05T14:46:55Z",
+      "title": "בהירות וקבלת החלטות בעיצוב ממשק",
+      "description": "עקרונות לשיפור בהירות הממשק באמצעות צבעים מכוונים, קריאות, ריווח והפחתת עומס על המשתמש.",
+      "type": "video",
+      "url": "https://www.instagram.com/zanderwhitehurst/reel/DXrDg7AiHuN/",
+      "courseIds": [
+        "web-design"
+      ],
+      "keywords": [],
+      "status": "published"
+    },
+    {
+      "id": "item-0022",
+      "addedAt": "2026-10-05T00:00:00Z",
+      "updatedAt": "2026-10-05T14:46:55Z",
+      "title": "משוב על תקלות חיבור — חוויית משתמש, חלק 7",
+      "description": "הדגמה של הצגת תקלה בחיבור בממשק, עם משוב למשתמש בזמן ניסיון התחברות מחדש.",
+      "type": "video",
+      "url": "https://www.instagram.com/synsation_/reel/DY0IImqxNQ0/",
+      "courseIds": [
+        "web-design"
+      ],
+      "keywords": [],
+      "status": "published"
+    },
+    {
+      "id": "item-0023",
+      "addedAt": "2026-10-05T00:00:00Z",
+      "updatedAt": "2026-10-05T14:46:55Z",
+      "title": "שישה עקרונות להקלה על מילוי טפסים",
+      "description": "הצגת שישה שיקולי עיצוב שנועדו להפחית קושי ותסכול בעת מילוי טפסים.",
+      "type": "video",
+      "url": "https://www.instagram.com/synsation_/reel/DYyzrdpIixM/",
+      "courseIds": [
+        "web-design"
+      ],
+      "keywords": [],
+      "status": "published"
+    },
+    {
+      "id": "item-0024",
+      "addedAt": "2026-10-05T00:00:00Z",
+      "updatedAt": "2026-10-05T14:46:55Z",
+      "title": "השראה לעיצוב ממשקים באמצעות Mobbin",
+      "description": "הצגת Mobbin כמקור לדוגמאות של ממשקים וחוויות משתמש מאפליקציות ואתרים קיימים.",
+      "type": "video",
+      "url": "https://www.instagram.com/vinny_creative/reel/DZZ2-8AOy5_/",
+      "courseIds": [
+        "web-design"
+      ],
+      "keywords": [],
+      "status": "published"
+    },
+    {
+      "id": "item-0025",
+      "addedAt": "2026-10-05T00:00:00Z",
+      "updatedAt": "2026-10-05T14:46:55Z",
+      "title": "עיצוב מצבים ריקים בממשק",
+      "description": "הסבר על תפקידם של מצבים ריקים ביצירת רושם ראשוני ובהכוונת המשתמש לפעולה.",
+      "type": "video",
+      "url": "https://www.instagram.com/synsation_/reel/DY5PkUjyhMv/",
+      "courseIds": [
+        "web-design"
+      ],
+      "keywords": [],
+      "status": "published"
+    },
+    {
+      "id": "item-0026",
+      "addedAt": "2026-10-05T00:00:00Z",
+      "updatedAt": "2026-10-05T14:46:55Z",
+      "title": "כפתורים לעומת קישורים בממשק נגיש",
+      "description": "דיון בהבדל בין כפתורים לקישורים ובבחירת רכיב מתאים לפעולה או לניווט.",
+      "type": "video",
+      "url": "https://www.instagram.com/playfairdigital/reel/DZIXPQeq6BJ/",
+      "courseIds": [
+        "accessibility",
+        "web-development",
+        "web-design"
+      ],
+      "keywords": [],
+      "status": "published"
+    },
+    {
+      "id": "item-0027",
+      "addedAt": "2026-10-05T00:00:00Z",
+      "updatedAt": "2026-10-05T14:46:55Z",
+      "title": "אביזר מותאם שפיתחו סטודנטים לריפוי בעיסוק",
+      "description": "הצגת המצאה של ציוד מותאם במסגרת לימודי סייעות וסייעים בריפוי בעיסוק.",
+      "type": "video",
+      "url": "https://www.instagram.com/prccota27/reel/DXHiJcsDSE6/",
+      "courseIds": [
+        "accessibility"
+      ],
+      "keywords": [],
+      "status": "published"
+    },
+    {
+      "id": "item-0028",
+      "addedAt": "2026-10-05T00:00:00Z",
+      "updatedAt": "2026-10-05T14:46:55Z",
+      "title": "הקושי למצוא מוצרים נגישים",
+      "description": "דיון באופן שבו תיוג מוצרים משפיע על היכולת למצוא מוצרים נגישים ומותאמים.",
+      "type": "video",
+      "url": "https://www.instagram.com/liberare.co/reel/DXpKHHmDueL/",
+      "courseIds": [
+        "accessibility"
+      ],
+      "keywords": [],
+      "status": "published"
+    },
+    {
+      "id": "item-0029",
+      "addedAt": "2026-10-05T00:00:00Z",
+      "updatedAt": "2026-10-05T14:46:55Z",
+      "title": "עיצוב חזיית היריון עם סגירה נגישה",
+      "description": "תהליך עיצוב חזייה עם סגירות מגנטיות, כולל בדיקה של שימוש ביד אחת ובהתמודדות עם כאבי שורש כף היד ומיומנות ידיים מוגבלת.",
+      "type": "video",
+      "url": "https://www.instagram.com/liberare.co/reel/DW9RiAejuv2/",
+      "courseIds": [
+        "accessibility"
+      ],
+      "keywords": [],
+      "status": "published"
+    },
+    {
+      "id": "item-0030",
+      "addedAt": "2026-10-05T00:00:00Z",
+      "updatedAt": "2026-10-05T14:46:55Z",
+      "title": "בקבוקי שמפו נגישים של Being Haircare",
+      "description": "הצגת אריזות עם סימנים מישושיים וטקסט קריא יותר, עבור משתמשים עיוורים ועם לקויות ראייה.",
+      "type": "video",
+      "url": "https://www.instagram.com/natashacaudill/reel/DY5Mep5hOri/",
+      "courseIds": [
+        "accessibility"
+      ],
+      "keywords": [],
+      "status": "published"
+    },
+    {
+      "id": "item-0031",
+      "addedAt": "2026-10-05T00:00:00Z",
+      "updatedAt": "2026-10-05T14:46:55Z",
+      "title": "הפער בחוויית הזמנת כרטיס נגיש לתיאטרון",
+      "description": "השוואה בין הזמנת כרטיס רגיל לבין תהליך הזמנת מקום נגיש לכיסא גלגלים, הכולל חיפוש, טופס, מסמכים ושיחת טלפון.",
+      "type": "video",
+      "url": "https://www.instagram.com/chronicallyjenni/reel/DXpG8_HlWhp/",
+      "courseIds": [
+        "accessibility",
+        "web-design"
+      ],
+      "keywords": [],
+      "status": "published"
+    },
+    {
+      "id": "item-0032",
+      "addedAt": "2026-10-05T00:00:00Z",
+      "updatedAt": "2026-10-05T14:46:55Z",
+      "title": "בדיקת שימוש והתאמות במעיל נגיש",
+      "description": "הצגת התאמות אחרונות במעיל מותאם והתנסות של משתמשת במוצר.",
+      "type": "video",
+      "url": "https://www.instagram.com/liberare.co/reel/DZbNPs5O4Ib/",
+      "courseIds": [
+        "accessibility"
+      ],
+      "keywords": [],
+      "status": "published"
+    },
+    {
+      "id": "item-0033",
+      "addedAt": "2026-10-05T00:00:00Z",
+      "updatedAt": "2026-10-05T14:46:55Z",
+      "title": "גרביים מותאמים לגריבה עצמאית",
+      "description": "הצגת גרביים מותאמים שנועדו להקל על גריבה עצמאית.",
+      "type": "video",
+      "url": "https://www.instagram.com/haley.lives/reel/DZVNAAPxbth/",
+      "courseIds": [
+        "accessibility"
+      ],
+      "keywords": [],
+      "status": "published"
+    },
+    {
+      "id": "item-0034",
+      "addedAt": "2026-10-05T00:00:00Z",
+      "updatedAt": "2026-10-05T14:46:55Z",
+      "title": "עכבר מחשב מותאם לתנועת כפות הידיים",
+      "description": "היוצרת מציגה עכבר מחשב ומתארת כיצד הוא מתאים לאופן תנועת כפות ידיה ומקל על השימוש במחשב.",
+      "type": "video",
+      "url": "https://www.instagram.com/unlimbitedkate/reel/DU7dk4Dkmwn/",
+      "courseIds": [
+        "accessibility"
+      ],
+      "keywords": [],
+      "status": "published"
+    },
+    {
+      "id": "item-0035",
+      "addedAt": "2026-10-05T00:00:00Z",
+      "updatedAt": "2026-10-05T14:46:55Z",
+      "title": "מיקס של סגנונות חזותיים — חלק 16",
+      "description": "הצגת סגנונות חזותיים כהשראה לעיצוב, עם הפניה לאוסף השראה ב-Pinterest.",
+      "type": "video",
+      "url": "https://www.instagram.com/vinny_creative/reel/DYzuXb-u2M5/",
+      "courseIds": [
+        "web-design"
+      ],
+      "keywords": [],
+      "status": "published"
+    },
+    {
+      "id": "item-0036",
+      "addedAt": "2026-10-05T00:00:00Z",
+      "updatedAt": "2026-10-05T14:46:55Z",
+      "title": "ריקוד Chanel של Tyla באנימציית נייר",
+      "description": "גרסת אנימציית נייר לריקוד Chanel של Tyla, המציגה תנועה באמצעות איורים.",
+      "type": "video",
+      "url": "https://www.instagram.com/aarviarts01/reel/DWgrZRpDUbC/",
+      "courseIds": [
+        "unity"
+      ],
+      "keywords": [],
+      "status": "published"
+    },
+    {
+      "id": "item-0037",
+      "addedAt": "2026-10-05T00:00:00Z",
+      "updatedAt": "2026-10-05T14:46:55Z",
+      "title": "EaZyHold — אביזר עזר לאחיזה",
+      "description": "הצגת רצועות סיליקון המסייעות לאחוז בחפצים יומיומיים ולשלוט בהם במצבים של קושי באחיזה.",
+      "type": "video",
+      "url": "https://www.instagram.com/p_the_ot/reel/DWW82pRBucc/",
+      "courseIds": [
+        "accessibility"
+      ],
+      "keywords": [],
+      "status": "published"
+    },
+    {
+      "id": "item-0038",
+      "addedAt": "2026-10-05T00:00:00Z",
+      "updatedAt": "2026-10-05T14:46:55Z",
+      "title": "המחשת קוצר ראייה ללא משקפיים",
+      "description": "המחשה חזותית של טשטוש ראייה ללא משקפיים בקוצר ראייה.",
+      "type": "video",
+      "url": "https://www.instagram.com/weoptic_kh/reel/DUNDur2E7A8/",
+      "courseIds": [
+        "accessibility"
+      ],
+      "keywords": [],
+      "status": "published"
+    },
+    {
+      "id": "item-0039",
+      "addedAt": "2026-10-05T00:00:00Z",
+      "updatedAt": "2026-10-05T14:46:55Z",
+      "title": "הזמנה לחתונה כאתר רספונסיבי",
+      "description": "הדגמת אתר הזמנה לחתונה כפי שהוא מוצג במחשב נייד, בטאבלט ובטלפון.",
+      "type": "video",
+      "url": "https://www.instagram.com/missingpieceinvites/reel/DWiwH64RD2A/",
+      "courseIds": [
+        "web-development",
+        "web-design"
+      ],
+      "keywords": [],
+      "status": "published"
+    },
+    {
+      "id": "item-0040",
+      "addedAt": "2026-10-05T00:00:00Z",
+      "updatedAt": "2026-10-05T14:46:55Z",
+      "title": "AutoSprite — יצירת אנימציות לדמות מתמונה",
+      "description": "הצגת כלי מבוסס בינה מלאכותית ליצירת אנימציות הליכה, תקיפה ועמידה מתמונה אחת של דמות.",
+      "type": "video",
+      "url": "https://www.instagram.com/marc.kaz/reel/DWWk0duBXHn/",
+      "courseIds": [
+        "unity"
+      ],
+      "keywords": [],
+      "status": "published"
+    },
+    {
+      "id": "item-0041",
+      "addedAt": "2026-10-05T00:00:00Z",
+      "updatedAt": "2026-10-05T14:46:55Z",
+      "title": "אביזרי עזר מותאמים ליד ולגפה העליונה",
+      "description": "הצגת אביזרי עזר מותאמים לפעולות המבוצעות באמצעות היד והגפה העליונה.",
+      "type": "video",
+      "url": "https://www.instagram.com/manotec.ar/reel/DV37SQAh3i0/",
+      "courseIds": [
+        "accessibility"
+      ],
+      "keywords": [],
+      "status": "published"
+    },
+    {
+      "id": "item-0042",
+      "addedAt": "2026-10-05T00:00:00Z",
+      "updatedAt": "2026-10-05T14:46:55Z",
+      "title": "ריקוד Chanel של Tyla בפליפבוק",
+      "description": "גרסת פליפבוק לריקוד Chanel של Tyla, המדגימה אנימציה באמצעות רצף איורים.",
+      "type": "video",
+      "url": "https://www.instagram.com/aarviarts01/reel/DVV9owsjaea/",
+      "courseIds": [
+        "unity"
+      ],
+      "keywords": [],
+      "status": "published"
+    },
+    {
+      "id": "item-0043",
+      "addedAt": "2026-10-05T00:00:00Z",
+      "updatedAt": "2026-10-05T14:46:55Z",
+      "title": "Fa9la — ריקוד באנימציית נייר",
+      "description": "גרסת אנימציית נייר לריקוד Fa9la.",
+      "type": "video",
+      "url": "https://www.instagram.com/aarviarts01/reel/DU72CsSDQOR/",
+      "courseIds": [
+        "unity"
+      ],
+      "keywords": [],
+      "status": "published"
+    },
+    {
+      "id": "item-0044",
+      "addedAt": "2026-10-05T00:00:00Z",
+      "updatedAt": "2026-10-05T14:46:55Z",
+      "title": "Gitlantis — תצוגת קבצים חלופית ב-VS Code",
+      "description": "הצגת Gitlantis, תוסף ל-VS Code המציע תצוגה חלופית של סייר הקבצים.",
+      "type": "video",
+      "url": "https://www.instagram.com/webbyvaris/reel/DUqCQcSAQQe/",
+      "courseIds": [
+        "web-development"
+      ],
+      "keywords": [],
+      "status": "published"
+    },
+    {
+      "id": "item-0045",
+      "addedAt": "2026-10-05T00:00:00Z",
+      "updatedAt": "2026-10-05T14:46:55Z",
+      "title": "עריכת Prefab בתוך הסצנה ב־Unity",
+      "description": "הדגמת עריכת Prefab בהקשר של הסצנה, וצפייה בשינויים בלי להשפיע על מופעים אחרים שלו.",
+      "type": "video",
+      "url": "https://www.instagram.com/unitytechnologies/reel/DUlp4NyFTC-/",
+      "courseIds": [
+        "unity"
+      ],
+      "keywords": [],
+      "status": "published"
+    },
+    {
+      "id": "item-0046",
+      "addedAt": "2026-10-05T00:00:00Z",
+      "updatedAt": "2026-10-05T14:46:55Z",
+      "title": "Trellis2 — יצירת מודלים תלת־ממדיים מתמונות",
+      "description": "הצגת כלי של Microsoft ליצירת מודלים תלת־ממדיים מתמונות ולהורדתם לשימוש במשחקים ובדגמים.",
+      "type": "video",
+      "url": "https://www.instagram.com/sebintel/reel/DUf_1pEDwZy/",
+      "courseIds": [
+        "unity"
+      ],
+      "keywords": [],
+      "status": "published"
+    },
+    {
+      "id": "item-0047",
+      "addedAt": "2026-10-05T00:00:00Z",
+      "updatedAt": "2026-10-05T14:46:55Z",
+      "title": "מטאפורות בעיצוב ממשקים",
+      "description": "הסבר על שימוש בדימויים ובחפצים מוכרים מהעולם הפיזי כדי להקל על הבנת ממשקים ומושגים מורכבים.",
+      "type": "video",
+      "url": "https://www.instagram.com/apat.bharat/reel/DQUJ9d2kpPU/",
+      "courseIds": [
+        "web-design"
+      ],
+      "keywords": [],
+      "status": "published"
+    },
+    {
+      "id": "item-0048",
+      "addedAt": "2026-10-05T00:00:00Z",
+      "updatedAt": "2026-10-05T14:46:55Z",
+      "title": "SignAloud — כפפות להמרת סימנים לדיבור",
+      "description": "הצגת כפפות עם חיישני תנועה של Thomas Pryor ו־Navid Azodi, המיועדות להמרת מחוות בשפת הסימנים האמריקאית לדיבור באנגלית.",
+      "type": "video",
+      "url": "https://www.instagram.com/foundxai/reel/DUMRB1FDJy9/",
+      "courseIds": [
+        "accessibility"
+      ],
+      "keywords": [],
+      "status": "published"
+    },
+    {
+      "id": "item-0049",
+      "addedAt": "2026-10-05T00:00:00Z",
+      "updatedAt": "2026-10-05T14:46:55Z",
+      "title": "הגבלת מצלמת משחק עם Cinemachine 2D Confiner",
+      "description": "הדגמת הגדרת גבולות למצלמת משחק דו־ממדי ב־Unity באמצעות Cinemachine 2D Confiner.",
+      "type": "video",
+      "url": "https://www.instagram.com/unitytechnologies/reel/DUBZEOpGJ5n/",
+      "courseIds": [
+        "unity"
+      ],
+      "keywords": [],
+      "status": "published"
+    },
+    {
+      "id": "item-0050",
+      "addedAt": "2026-10-05T00:00:00Z",
+      "updatedAt": "2026-10-05T14:46:55Z",
+      "title": "Learn Your Way — למידה בעזרת AI של Google",
+      "description": "הצגת Learn Your Way של Google ככלי בינה מלאכותית ללמידה.",
+      "type": "video",
+      "url": "https://www.instagram.com/noteswnat/reel/DT3HZYYEyga/",
+      "courseIds": [
+        "learning-technologies"
+      ],
+      "keywords": [],
+      "status": "published"
+    },
+    {
+      "id": "item-0051",
+      "addedAt": "2026-10-05T00:00:00Z",
+      "updatedAt": "2026-10-05T14:46:55Z",
+      "title": "שילוב קניות בתוך משחק עם Walmart SDK",
+      "description": "הצגת ערכת פיתוח של Walmart לשילוב מוצרים וחנויות לרכישה בתוך חוויית המשחק.",
+      "type": "video",
+      "url": "https://www.instagram.com/unitytechnologies/reel/DTx1afLDyLI/",
+      "courseIds": [
+        "unity"
+      ],
+      "keywords": [],
+      "status": "published"
+    },
+    {
+      "id": "item-0052",
+      "addedAt": "2026-10-05T00:00:00Z",
+      "updatedAt": "2026-10-05T14:46:55Z",
+      "title": "איחוד רשתות תלת־ממדיות ב־Unity 6",
+      "description": "הדגמת שימוש ב־Mesh.CombineMeshes לאיחוד נכסים מודולריים החולקים חומר משותף, לצורך שיפור ביצועי המשחק.",
+      "type": "video",
+      "url": "https://www.instagram.com/unitytechnologies/reel/DSD3Q33lUjD/",
+      "courseIds": [
+        "unity"
+      ],
+      "keywords": [],
+      "status": "published"
+    },
+    {
+      "id": "item-0053",
+      "addedAt": "2026-10-05T00:00:00Z",
+      "updatedAt": "2026-10-05T14:46:55Z",
+      "title": "רצפת העץ בשדה התעופה בקופנהגן",
+      "description": "דיון בעברית על אדריכלות אנושית ועל האופן שבו רצפת העץ בשדה התעופה קאסטרופ מעוררת תחושות של רוגע, חום ואמון.",
+      "type": "video",
+      "url": "https://www.instagram.com/fieldnotesandfinds/reel/DTfb9lQCNbs/",
+      "courseIds": [
+        "design"
+      ],
+      "keywords": [],
+      "status": "published"
+    },
+    {
+      "id": "item-0054",
+      "addedAt": "2026-10-05T00:00:00Z",
+      "updatedAt": "2026-10-05T14:46:55Z",
+      "title": "Procrastination Core — דחיינות",
+      "description": "קטע הומוריסטי בנושא דחיינות.",
+      "type": "video",
+      "url": "https://www.instagram.com/chainedcores/reel/DTc5sy8E2qK/",
+      "courseIds": [
+        "learning-skills"
+      ],
+      "keywords": [],
+      "status": "published"
+    },
+    {
+      "id": "item-0055",
+      "addedAt": "2026-10-05T00:00:00Z",
+      "updatedAt": "2026-10-05T14:46:55Z",
+      "title": "אוריינות משחקים היא מיומנות נרכשת",
+      "description": "דיון על מוסכמות ומיומנויות במשחקי וידאו שנלמדות עם ניסיון, ועל קשיים של שחקנים שלא נחשפו אליהן.",
+      "type": "video",
+      "url": "https://www.instagram.com/ellalowgren/reel/DSzRTjQkvKA/",
+      "courseIds": [
+        "unity"
+      ],
+      "keywords": [],
+      "status": "published"
+    },
+    {
+      "id": "item-0056",
+      "addedAt": "2026-10-05T00:00:00Z",
+      "updatedAt": "2026-10-05T14:46:55Z",
+      "title": "סיור אדריכלי ברחוב ביאליק בתל אביב",
+      "description": "סיור בעברית בעקבות סגנונות הבנייה ברחוב ביאליק, מהסגנון האקלקטי לסגנון הבינלאומי בשנות העשרים והשלושים.",
+      "type": "video",
+      "url": "https://www.instagram.com/builtage/reel/DSul4hJDO-e/",
+      "courseIds": [
+        "design"
+      ],
+      "keywords": [],
+      "status": "published"
+    },
+    {
+      "id": "item-0057",
+      "addedAt": "2026-10-05T00:00:00Z",
+      "updatedAt": "2026-10-05T14:46:55Z",
+      "title": "ספר צביעה נגיש עם קווי מתאר מוגבהים וברייל",
+      "description": "הצגת ספר צביעה המשלב קווי מתאר למישוש, ברייל וקווים חזותיים, לפעילות משותפת של הורה עיוור וילד רואה.",
+      "type": "video",
+      "url": "https://www.instagram.com/asfvision/reel/DR2mAuFkSol/",
+      "courseIds": [
+        "accessibility"
+      ],
+      "keywords": [],
+      "status": "published"
+    },
+    {
+      "id": "item-0058",
+      "addedAt": "2026-10-05T00:00:00Z",
+      "updatedAt": "2026-10-05T14:46:55Z",
+      "title": "זיהוי תנועה מכלי בינה מלאכותית ב־Google Analytics",
+      "description": "הדגמת ניתוח מקור התנועה ונתיבי דפים ב־Google Analytics Explore באמצעות מסננים וביטויים רגולריים לזיהוי הפניות מכלי בינה מלאכותית.",
+      "type": "video",
+      "url": "https://www.instagram.com/edward.builds/reel/DSXXSfdjBoQ/",
+      "courseIds": [
+        "web-development",
+        "web-design"
+      ],
+      "keywords": [],
+      "status": "published"
+    },
+    {
+      "id": "item-0059",
+      "addedAt": "2026-10-05T00:00:00Z",
+      "updatedAt": "2026-10-05T14:46:55Z",
+      "title": "TCP לעומת UDP — הסבר באמצעות חתולים",
+      "description": "הסבר על ההבדלים בין פרוטוקולי התקשורת TCP ו־UDP באמצעות המחשה עם חתולים.",
+      "type": "video",
+      "url": "https://www.instagram.com/coding.kitty/reel/DSE6LexESUr/",
+      "courseIds": [
+        "web-development"
+      ],
+      "keywords": [],
+      "status": "published"
+    },
+    {
+      "id": "item-0060",
+      "addedAt": "2026-10-05T00:00:00Z",
+      "updatedAt": "2026-10-05T14:46:55Z",
+      "title": "מהו TPU וכיצד הוא שונה מ־CPU ו־GPU",
+      "description": "הסבר בעברית על חומרת TPU של Google ללמידת מכונה, כפל מטריצות ומערך סיסטולי, בהשוואה ל־CPU ול־GPU.",
+      "type": "video",
+      "url": "https://www.instagram.com/lina.tech.flat/reel/DSA6rGOjGCX/",
+      "courseIds": [
+        "learning-technologies",
+        "computer-science",
+        "unity"
+      ],
+      "keywords": [],
+      "status": "published"
+    },
+    {
+      "id": "item-0061",
+      "addedAt": "2026-10-05T00:00:00Z",
+      "updatedAt": "2026-10-05T14:46:55Z",
+      "title": "ייבוא קובצי Photoshop בשכבות ל־Unity",
+      "description": "הדגמת ייבוא אמנות דו־ממדית מקובצי PSD ל־Unity, תוך שמירה על שכבות וקבוצות ועדכון בעקבות שינויים בקובץ.",
+      "type": "video",
+      "url": "https://www.instagram.com/unitytechnologies/reel/DRfK9GyD2Cq/",
+      "courseIds": [
+        "unity"
+      ],
+      "keywords": [],
+      "status": "published"
+    },
+    {
+      "id": "item-0062",
+      "addedAt": "2026-10-05T00:00:00Z",
+      "updatedAt": "2026-10-05T14:46:55Z",
+      "title": "יצירת אנימציה דו־ממדית באמצעות Google Calendar",
+      "description": "הדגמת שימוש יצירתי ב־Google Calendar ליצירת אנימציה דו־ממדית ללא לוח ציור דיגיטלי.",
+      "type": "video",
+      "url": "https://www.instagram.com/sonderingemily/reel/DQPOxV_ifo9/",
+      "courseIds": [
+        "unity"
+      ],
+      "keywords": [],
+      "status": "published"
+    },
+    {
+      "id": "item-0063",
+      "addedAt": "2026-10-05T00:00:00Z",
+      "updatedAt": "2026-10-05T14:46:55Z",
+      "title": "חמישה תוספים ל־VS Code — חלק ראשון",
+      "description": "הצגת חמישה תוספים לסביבת הפיתוח VS Code, ובהם Console Ninja.",
+      "type": "video",
+      "url": "https://www.instagram.com/code4fewbucks/reel/DHm8esExPJ0/",
+      "courseIds": [
+        "web-development"
+      ],
+      "keywords": [],
+      "status": "published"
+    },
+    {
+      "id": "item-0064",
+      "addedAt": "2026-10-05T00:00:00Z",
+      "updatedAt": "2026-10-05T14:46:55Z",
+      "title": "Git — הסבר באמצעות חתולים",
+      "description": "הסבר על מערכת ניהול הגרסאות Git באמצעות המחשה עם חתולים.",
+      "type": "video",
+      "url": "https://www.instagram.com/coding.kitty/reel/DOacE6djVYJ/",
+      "courseIds": [
+        "web-development"
+      ],
+      "keywords": [],
+      "status": "published"
+    },
+    {
+      "id": "item-0065",
+      "addedAt": "2026-10-05T00:00:00Z",
+      "updatedAt": "2026-10-05T14:46:55Z",
+      "title": "הסבר על מתקפות SQL Injection",
+      "description": "הסבר על מתקפות הזרקת SQL.",
+      "type": "video",
+      "url": "https://www.instagram.com/cybersecuritykitty/reel/DL1CiQQxf0-/",
+      "courseIds": [
+        "web-development"
+      ],
+      "keywords": [],
+      "status": "published"
+    },
+    {
+      "id": "item-0066",
+      "addedAt": "2026-10-05T00:00:00Z",
+      "updatedAt": "2026-10-05T14:46:55Z",
+      "title": "איך API מחבר בין ממשק לשרת",
+      "description": "המחשת תהליך תקשורת בין לקוח לשרת: בקשה, עיבוד בשרת, החזרת נתונים ב־JSON או XML ועדכון הממשק.",
+      "type": "video",
+      "url": "https://www.instagram.com/fluxent.tech/reel/DMe9QC71tz-/",
+      "courseIds": [
+        "web-development"
+      ],
+      "keywords": [],
+      "status": "published"
+    },
+    {
+      "id": "item-0067",
+      "addedAt": "2026-10-05T00:00:00Z",
+      "updatedAt": "2026-10-05T14:46:55Z",
+      "title": "ניהול גרסאות ועבודה משותפת ביוניטי",
+      "description": "הדרכה בנושא ניהול גרסאות ושיתוף פעולה בפרויקט Unity.",
+      "type": "video",
+      "url": "https://vimeo.com/897684298/303890bbc8?share=copy",
+      "courseIds": [
+        "unity"
+      ],
+      "keywords": [],
+      "status": "published"
+    },
+    {
+      "id": "item-0068",
+      "addedAt": "2026-10-05T00:00:00Z",
+      "updatedAt": "2026-10-05T14:46:55Z",
+      "title": "מילוי ScrollView ברשומות באמצעות קוד ב־Unity",
+      "description": "הדגמת הגדרת ScrollView ומילויו באמצעות קוד ברשומות הניתנות להתאמה.",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=HM4yHwyRmrA",
+      "courseIds": [
+        "unity"
+      ],
+      "keywords": [],
+      "status": "published"
+    },
+    {
+      "id": "item-0069",
+      "addedAt": "2026-10-05T00:00:00Z",
+      "updatedAt": "2026-10-05T14:46:55Z",
+      "title": "סצנות ב-Unity: מעברים והעברת מידע",
+      "description": "חלוקת משחק לסצנות, מעבר ביניהן באמצעות SceneManager והעברת מידע בעזרת משתנים סטטיים, עם דוגמאות ותרגול למשחק חללית.",
+      "type": "file",
+      "url": "/resources/scenes-001.pptx",
+      "courseIds": [
+        "unity"
+      ],
+      "keywords": [],
+      "status": "published"
+    },
+    {
+      "id": "item-0070",
+      "addedAt": "2026-10-05T00:00:00Z",
+      "updatedAt": "2026-10-05T14:46:55Z",
+      "title": "קובץ תרגול סצנות ב-Unity",
+      "description": "חבילת תרגול למשחק חללית עם ארבע סצנות: פתיחה, אנימציה, משחק וסיום. בסיס להשלמת המעברים בין הסצנות והעברת המידע.",
+      "type": "file",
+      "url": "/resources/scenes-002.unitypackage",
+      "courseIds": [
+        "unity"
+      ],
+      "keywords": [],
+      "status": "published"
+    },
+    {
+      "id": "item-0071",
+      "addedAt": "2026-10-05T00:00:00Z",
+      "updatedAt": "2026-10-05T14:46:55Z",
+      "title": "אנימציה למצלמה ב-Unity",
+      "description": "יצירת רצועת אנימציה למצלמה הראשית ב-Timeline ושליטה בפריים ובתזמון התנועה.",
+      "type": "file",
+      "url": "/resources/camera-003.pptx",
+      "courseIds": [
+        "unity"
+      ],
+      "keywords": [],
+      "status": "published"
+    },
+    {
+      "id": "item-0072",
+      "addedAt": "2026-10-05T00:00:00Z",
+      "updatedAt": "2026-10-05T14:46:55Z",
+      "title": "סידור אובייקטים בגריד ב-Unity",
+      "description": "מדריך לארגון אובייקטים בגריד באמצעות Layout Element ו-Grid Layout Group.",
+      "type": "file",
+      "url": "/resources/grid-004.pptx",
+      "courseIds": [
+        "unity"
+      ],
+      "keywords": [],
+      "status": "published"
+    },
+    {
+      "id": "item-0073",
+      "addedAt": "2026-10-05T00:00:00Z",
+      "updatedAt": "2026-10-05T14:46:55Z",
+      "title": "תזכורת לעבודה עם גריד ב-Unity",
+      "description": "מדריך לארגון אובייקטים בגריד באמצעות Layout Element ו-Grid Layout Group.",
+      "type": "file",
+      "url": "/resources/grid-005.pdf",
+      "courseIds": [
+        "unity"
+      ],
+      "keywords": [],
+      "status": "published"
+    },
+    {
+      "id": "item-0074",
+      "addedAt": "2026-10-05T00:00:00Z",
+      "updatedAt": "2026-10-05T14:46:55Z",
+      "title": "שימוש ב־Layout Groups ב־Unity",
+      "description": "ארגון ממשקי Unity באמצעות קבוצות פריסה אופקיות, אנכיות ובגריד, ושימוש ב-Layout Element.",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=ouXCjFcfNfA",
+      "courseIds": [
+        "unity"
+      ],
+      "keywords": [],
+      "status": "published"
+    },
+    {
+      "id": "item-0075",
+      "addedAt": "2026-10-05T00:00:00Z",
+      "updatedAt": "2026-10-05T14:46:55Z",
+      "title": "מסכות ואנימציה ב-Unity",
+      "description": "הוספת Sprite Mask, הגדרת האינטראקציה והשכבות והנפשת המסכה או האובייקטים באמצעות Timeline.",
+      "type": "file",
+      "url": "/resources/masks-006.pptx",
+      "courseIds": [
+        "unity"
+      ],
+      "keywords": [],
+      "status": "published"
+    },
+    {
+      "id": "item-0076",
+      "addedAt": "2026-10-05T00:00:00Z",
+      "updatedAt": "2026-10-05T14:46:55Z",
+      "title": "הכנת פריימים לאנימציה ב-Illustrator",
+      "description": "פיצול אובייקטים, יצירת משטחי עבודה אחידים ויישור פריימים, ולאחר מכן ייצוא PNG עם רקע שקוף.",
+      "type": "file",
+      "url": "/resources/illustrator-007.pptx",
+      "courseIds": [
+        "unity",
+        "design"
+      ],
+      "keywords": [],
+      "status": "published"
+    },
+    {
+      "id": "item-0077",
+      "addedAt": "2026-10-05T00:00:00Z",
+      "updatedAt": "2026-10-05T14:46:55Z",
+      "title": "Platformer Toolkit — מדריך אינטראקטיבי לתנועת דמות",
+      "description": "מדריך אינטראקטיבי המאפשר לשנות יותר משלושים מאפייני תנועה של דמות במשחק פלטפורמה, כגון מהירות וגובה קפיצה, ולנסות אותם בשלב לדוגמה.",
+      "type": "game",
+      "url": "https://gmtk.itch.io/platformer-toolkit",
+      "courseIds": [
+        "unity"
+      ],
+      "keywords": [],
+      "status": "published"
+    },
+    {
+      "id": "item-0078",
+      "addedAt": "2026-10-05T00:00:00Z",
+      "updatedAt": "2026-10-05T14:46:55Z",
+      "title": "בניית Flappy Bird ב־Unity למתחילים",
+      "description": "מדריך של Game Maker's Toolkit להכרת Unity דרך בניית גרסה של Flappy Bird.",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=XtQMytORBmM",
+      "courseIds": [
+        "unity"
+      ],
+      "keywords": [],
+      "status": "published"
+    },
+    {
+      "id": "item-0079",
+      "addedAt": "2026-10-05T00:00:00Z",
+      "updatedAt": "2026-10-05T14:46:55Z",
+      "title": "Game Maker's Toolkit — פלייליסטים",
+      "description": "פלייליסטים של ערוץ Game Maker's Toolkit העוסק בעיצוב משחקים.",
+      "type": "video",
+      "url": "https://www.youtube.com/@GMTK/playlists",
+      "courseIds": [
+        "unity"
+      ],
+      "keywords": [],
+      "status": "published"
+    },
+    {
+      "id": "item-0080",
+      "addedAt": "2026-10-05T00:00:00Z",
+      "updatedAt": "2026-10-05T14:46:55Z",
+      "title": "Unity Learn — אתר הלמידה הרשמי",
+      "description": "מדריכים, קורסים, פרויקטים ומסלולי למידה חינמיים של Unity לפיתוח משחקים וחוויות תלת־ממדיות.",
+      "type": "website",
+      "url": "https://learn.unity.com/",
+      "courseIds": [
+        "unity"
+      ],
+      "keywords": [],
+      "status": "published"
+    },
+    {
+      "id": "item-0081",
+      "addedAt": "2026-10-05T00:00:00Z",
+      "updatedAt": "2026-10-05T14:46:55Z",
+      "title": "Unity למתחילים — IndividualKex, חלקים 1–8",
+      "description": "סרטון של IndividualKex המרכז את חלקים 1–8 במדריך Unity למתחילים.",
+      "type": "video",
+      "url": "https://youtu.be/-m5q3pill5s?si=kWSSZosSmAu7l5ZS",
+      "courseIds": [
+        "unity"
+      ],
+      "keywords": [],
+      "status": "published"
+    },
+    {
+      "id": "item-0082",
+      "addedAt": "2026-10-05T00:00:00Z",
+      "updatedAt": "2026-10-05T14:46:55Z",
+      "title": "תכנות מונחה עצמים: מתכנית לתוכנה",
+      "description": "קורס בעברית על תכנון תוכנה מרובת רכיבים, הרחבות וניהול נתונים, תוך פיתוח משחקים קטנים.",
+      "type": "course",
+      "url": "https://campus.gov.il/course/huji-acd-rfp4-objectorientedprogramming-he/",
+      "courseIds": [
+        "unity"
+      ],
+      "keywords": [],
+      "status": "published"
+    },
+    {
+      "id": "item-0083",
+      "addedAt": "2026-10-05T00:00:00Z",
+      "updatedAt": "2026-10-05T14:46:55Z",
+      "title": "Kenney — נכסים דו־ממדיים למשחקים",
+      "description": "מאגר חבילות גרפיקה דו־ממדית למשחקים, ובהן דמויות, סביבות, רכיבי ממשק ואביזרים.",
+      "type": "website",
+      "url": "https://kenney.nl/assets/category:2D?sort=update",
+      "courseIds": [
+        "unity"
+      ],
+      "keywords": [],
+      "status": "published"
+    },
+    {
+      "id": "item-0084",
+      "addedAt": "2026-10-05T00:00:00Z",
+      "updatedAt": "2026-10-05T14:46:55Z",
+      "title": "Unity Asset Store — נכסים לפיתוח משחקים",
+      "description": "חנות הנכסים הרשמית של Unity לאיתור נכסים ורכיבים לשילוב בפרויקטים.",
+      "type": "website",
+      "url": "https://assetstore.unity.com/?category=2d&free=true&orderBy=1",
+      "courseIds": [
+        "unity"
+      ],
+      "keywords": [],
+      "status": "published"
+    },
+    {
+      "id": "item-0085",
+      "addedAt": "2026-10-05T00:00:00Z",
+      "updatedAt": "2026-10-05T14:46:55Z",
+      "title": "התיעוד הרשמי של Unity",
+      "description": "מדריכי שימוש ותיעוד API רשמיים של Unity, כולל המנוע, העורך, חבילות וכלי פיתוח.",
+      "type": "website",
+      "url": "https://docs.unity.com/",
+      "courseIds": [
+        "unity"
+      ],
+      "keywords": [],
+      "status": "published"
+    },
+    {
+      "id": "item-0086",
+      "addedAt": "2026-10-05T00:00:00Z",
+      "updatedAt": "2026-10-05T14:46:55Z",
+      "title": "Windows Defender — משחק הגנה באמצעות חלונות",
+      "description": "משחק שבו גוררים חלונות על שולחן עבודה כדי להגן על תיקיות בזמן הורדתן.",
+      "type": "game",
+      "url": "https://vividfax.itch.io/windows-defender",
+      "courseIds": [
+        "unity"
+      ],
+      "keywords": [],
+      "status": "published"
+    },
+    {
+      "id": "item-0087",
+      "addedAt": "2026-10-05T00:00:00Z",
+      "updatedAt": "2026-10-05T14:46:55Z",
+      "title": "Shutterbug — צילום חרקים באמצעות חלון הדפדפן",
+      "description": "משחק צילום חרקים שבו מזיזים ומשנים את גודל חלון הדפדפן כדי לחקור את הסצנה ולמסגר תמונות לאורך, לרוחב או בריבוע.",
+      "type": "game",
+      "url": "https://vividfax.itch.io/shutterbug",
+      "courseIds": [
+        "unity"
+      ],
+      "keywords": [],
+      "status": "published"
+    },
+    {
+      "id": "item-0088",
+      "addedAt": "2026-10-05T00:00:00Z",
+      "updatedAt": "2026-10-05T14:46:55Z",
+      "title": "קובץ בסיס לתרגול פריימים ב-Illustrator",
+      "description": "קובץ Illustrator מוכן המלווה את התרגול של פיצול אובייקטים, סידור משטחי עבודה ויצירת פריימים לאנימציה.",
+      "type": "file",
+      "url": "/resources/artboards-008.ai",
+      "courseIds": [
+        "unity",
+        "design"
+      ],
+      "keywords": [],
+      "status": "published"
+    },
+    {
+      "id": "item-0089",
+      "addedAt": "2026-10-05T00:00:00Z",
+      "updatedAt": "2026-10-05T14:46:55Z",
+      "title": "עבודה עם Canva ועיצוב תכני הדרכה",
+      "description": "היכרות עם תבניות וממשק העריכה ב-Canva, עקרונות לעיצוב תכני הדרכה, כלים מתקדמים ואפשרויות שיתוף.",
+      "type": "file",
+      "url": "/resources/canva-001.pptx",
+      "courseIds": [
+        "design",
+        "learning-technologies"
+      ],
+      "keywords": [],
+      "status": "published"
+    },
+    {
+      "id": "item-0090",
+      "addedAt": "2026-10-05T00:00:00Z",
+      "updatedAt": "2026-10-05T14:46:55Z",
+      "title": "היסטוריה קצרה של האנימציה",
+      "description": "סקירה קצרה של התפתחות האנימציה מאת Will Seymour Murphy.",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=mbpLpxi9rJY",
+      "courseIds": [
+        "unity",
+        "design"
+      ],
+      "keywords": [],
+      "status": "published"
+    },
+    {
+      "id": "item-0091",
+      "addedAt": "2026-10-05T00:00:00Z",
+      "updatedAt": "2026-10-05T14:46:55Z",
+      "title": "12 עקרונות האנימציה",
+      "description": "הסבר של ClickView על עקרונות האנימציה, עם דוגמאות חזותיות להנפשת דמויות ואובייקטים.",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=f0cZfw3XrG8",
+      "courseIds": [
+        "unity",
+        "design"
+      ],
+      "keywords": [],
+      "status": "published"
+    },
+    {
+      "id": "item-0092",
+      "addedAt": "2026-10-05T00:00:00Z",
+      "updatedAt": "2026-10-05T14:46:55Z",
+      "title": "ההיסטוריה של האנימציה: סגנונות, טכניקות וטכנולוגיות",
+      "description": "סקירה של התפתחות האנימציה והסגנונות, הטכניקות והטכנולוגיות המשמשים להנפשה.",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=LmyRZR8MaJI",
+      "courseIds": [
+        "unity",
+        "design"
+      ],
+      "keywords": [],
+      "status": "published"
+    },
+    {
+      "id": "item-0093",
+      "addedAt": "2026-10-05T00:00:00Z",
+      "updatedAt": "2026-10-05T14:46:55Z",
+      "title": "מהם Keyframes? הסבר בשתי דקות",
+      "description": "הסבר על פריימים מרכזיים באנימציה ובעריכת וידאו, ותפקידם בקביעת תנועה, תזמון ומהירות.",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=seAx5WnCZPI",
+      "courseIds": [
+        "unity",
+        "design"
+      ],
+      "keywords": [],
+      "status": "published"
+    },
+    {
+      "id": "item-0094",
+      "addedAt": "2026-10-05T00:00:00Z",
+      "updatedAt": "2026-10-05T14:46:55Z",
+      "title": "Bootstrap 5.3: דוגמאות לגריד ול-Containers",
+      "description": "דוגמאות לפריסות עמודות, קינון, רווחים ו-Containers רספונסיביים באמצעות מערכת הגריד של Bootstrap.",
+      "type": "website",
+      "url": "https://getbootstrap.com/docs/5.3/examples/grid/#containers",
+      "courseIds": [
+        "web-development"
+      ],
+      "keywords": [],
+      "status": "published"
+    },
+    {
+      "id": "item-0095",
+      "addedAt": "2026-10-05T00:00:00Z",
+      "updatedAt": "2026-10-05T14:46:55Z",
+      "title": "Colour Contrast Analyser: בדיקת ניגודיות צבעים",
+      "description": "כלי חינמי לבדיקת יחס הניגודיות בין צבעי טקסט, רכיבי ממשק ורקע, עם השוואה לדרישות WCAG והדמיית לקויות בראיית צבעים.",
+      "type": "tool",
+      "url": "https://vispero.com/lp/color-contrast-checker/",
+      "courseIds": [
+        "web-development",
+        "web-design",
+        "accessibility",
+        "design"
+      ],
+      "keywords": [],
+      "status": "published"
+    },
+    {
+      "id": "item-0096",
+      "addedAt": "2026-10-05T00:00:00Z",
+      "updatedAt": "2026-10-05T14:46:55Z",
+      "title": "המדריך ל-Flexbox של CSS-Tricks",
+      "description": "מדריך למאפייני Flexbox של הקונטיינר והפריטים, עם הסברים, תרשימים ודוגמאות ליישור ולסידור רכיבים.",
+      "type": "article",
+      "url": "https://css-tricks.com/snippets/css/a-guide-to-flexbox/#flexbox-background",
+      "courseIds": [
+        "web-development"
+      ],
+      "keywords": [],
+      "status": "published"
+    },
+    {
+      "id": "item-0097",
+      "addedAt": "2026-10-05T00:00:00Z",
+      "updatedAt": "2026-10-05T14:46:55Z",
+      "title": "W3Schools: לימוד ותרגול פיתוח אתרים",
+      "description": "מדריכים, תיעוד ודוגמאות קוד ב-HTML, CSS, JavaScript ושפות נוספות, לצד תרגילים ועורך קוד להתנסות בדפדפן.",
+      "type": "website",
+      "url": "https://www.w3schools.com/",
+      "courseIds": [
+        "web-development"
+      ],
+      "keywords": [],
+      "status": "published"
+    },
+    {
+      "id": "item-0098",
+      "addedAt": "2026-10-05T00:00:00Z",
+      "updatedAt": "2026-10-05T14:46:55Z",
+      "title": "W3Schools: פלייליסטים ב-YouTube",
+      "description": "פלייליסטים של W3Schools ללימוד HTML, CSS, JavaScript ושפות תכנות נוספות.",
+      "type": "video",
+      "url": "https://www.youtube.com/@w3schools/playlists",
+      "courseIds": [
+        "web-development"
+      ],
+      "keywords": [],
+      "status": "published"
+    },
+    {
+      "id": "item-0099",
+      "addedAt": "2026-10-05T00:00:00Z",
+      "updatedAt": "2026-10-05T14:46:55Z",
+      "title": "LearnCode.academy: מדריכי פיתוח אתרים למתחילים",
+      "description": "פלייליסט של LearnCode.academy ללימוד פיתוח אתרים, הכולל HTML, CSS, JavaScript, עיצוב רספונסיבי ו-GitHub.",
+      "type": "video",
+      "url": "https://www.youtube.com/playlist?list=PLoYCgNOIyGAB_8_iq1cL8MVeun7cB6eNc",
+      "courseIds": [
+        "web-development"
+      ],
+      "keywords": [],
+      "status": "published"
+    },
+    {
+      "id": "item-0100",
+      "addedAt": "2026-10-05T00:00:00Z",
+      "updatedAt": "2026-10-05T14:46:55Z",
+      "title": "Can't Unsee: משחק לבחירת עיצוב",
+      "description": "משחק לבחירה בין חלופות עיצוב ולתרגול תשומת לב לפרטים בממשק.",
+      "type": "game",
+      "url": "https://cantunsee.space/",
+      "courseIds": [
+        "web-development",
+        "web-design",
+        "design"
+      ],
+      "keywords": [],
+      "status": "published"
+    },
+    {
+      "id": "item-0101",
+      "addedAt": "2026-10-05T00:00:00Z",
+      "updatedAt": "2026-10-05T14:46:55Z",
+      "title": "CSS Buttons: גלריית כפתורים עם קוד",
+      "description": "גלריית כפתורים מעוצבים עם קישורים לקוד שלהם ב-Uiverse, להשראה ולשילוב באתר.",
+      "type": "website",
+      "url": "https://cssbuttons.io/",
+      "courseIds": [
+        "web-development"
+      ],
+      "keywords": [],
+      "status": "published"
+    },
+    {
+      "id": "item-0102",
+      "addedAt": "2026-10-05T00:00:00Z",
+      "updatedAt": "2026-10-05T14:46:55Z",
+      "title": "Coolshapes: מאגר צורות גרפיות",
+      "description": "מאגר צורות מופשטות עם מעברי צבע וטקסטורת גרעיניות, לשימוש בעיצוב ובפיתוח בפורמטים SVG ו-PNG.",
+      "type": "website",
+      "url": "https://coolshap.es/",
+      "courseIds": [
+        "web-development",
+        "design"
+      ],
+      "keywords": [],
+      "status": "published"
+    },
+    {
+      "id": "item-0103",
+      "addedAt": "2026-10-05T00:00:00Z",
+      "updatedAt": "2026-10-05T14:46:55Z",
+      "title": "Hover.css: אפקטים למעבר עכבר",
+      "description": "אוסף אפקטים במעבר עכבר על כפתורים, קישורים ותמונות, לשילוב בקוד CSS, Sass או LESS.",
+      "type": "tool",
+      "url": "https://ianlunn.github.io/Hover/",
+      "courseIds": [
+        "web-development"
+      ],
+      "keywords": [],
+      "status": "published"
+    },
+    {
+      "id": "item-0104",
+      "addedAt": "2026-10-05T00:00:00Z",
+      "updatedAt": "2026-10-05T14:46:55Z",
+      "title": "40 דוגמאות לאפקטים במעבר עכבר ב-CSS",
+      "description": "כתבה המציגה אפקטים במעבר עכבר על כרטיסים, כפתורים, תמונות ורכיבי ניווט, עם הסברים ודוגמאות קוד.",
+      "type": "article",
+      "url": "https://prismic.io/blog/css-hover-effects",
+      "courseIds": [
+        "web-development"
+      ],
+      "keywords": [],
+      "status": "published"
+    },
+    {
+      "id": "item-0105",
+      "addedAt": "2026-10-05T00:00:00Z",
+      "updatedAt": "2026-10-05T14:46:55Z",
+      "title": "CodePen: עורך קוד וקהילת דוגמאות",
+      "description": "סביבת פיתוח בדפדפן לכתיבת קוד ולצפייה בתוצאה, עם אפשרויות לשיתוף עבודות ולחיפוש דוגמאות והשראה מהקהילה.",
+      "type": "tool",
+      "url": "https://codepen.io/",
+      "courseIds": [
+        "web-development"
+      ],
+      "keywords": [],
+      "status": "published"
+    },
+    {
+      "id": "item-0106",
+      "addedAt": "2026-10-05T00:00:00Z",
+      "updatedAt": "2026-10-05T14:46:55Z",
+      "title": "MDB — רכיבי ממשק ל־Bootstrap",
+      "description": "ספריית רכיבי ממשק ותבניות המבוססת על Bootstrap ו־Material Design, עם תיעוד, דוגמאות ורכיבים חינמיים.",
+      "type": "tool",
+      "url": "https://mdbootstrap.com/",
+      "courseIds": [
+        "web-development"
+      ],
+      "keywords": [],
+      "status": "published"
+    },
+    {
+      "id": "item-0107",
+      "addedAt": "2026-10-05T00:00:00Z",
+      "updatedAt": "2026-10-05T14:46:55Z",
+      "title": "מבוא למסלול Front-End",
+      "description": "קורס בעברית להכרת תפקיד מפתח צד לקוח, כלי העבודה וכתיבת קוד ראשוני לפיתוח אתרים ואפליקציות.",
+      "type": "course",
+      "url": "https://campus.gov.il/course/digitaltech-gov-fronted-he/",
+      "courseIds": [
+        "web-development",
+        "web-design"
+      ],
+      "keywords": [],
+      "status": "published"
+    },
+    {
+      "id": "item-0108",
+      "addedAt": "2026-10-05T00:00:00Z",
+      "updatedAt": "2026-10-05T14:46:55Z",
+      "title": "מרושתים — איך עובד האינטרנט?",
+      "description": "קורס בעברית על תקשורת מחשבים, מודל שרת-לקוח, העברת מידע ופרוטוקולים כגון IP, DNS ו-HTTP.",
+      "type": "course",
+      "url": "https://campus.gov.il/course/cs-gov-cs-reshatot101/",
+      "courseIds": [
+        "web-development"
+      ],
+      "keywords": [],
+      "status": "published"
+    },
+    {
+      "id": "item-0109",
+      "addedAt": "2026-10-05T00:00:00Z",
+      "updatedAt": "2026-10-05T14:46:55Z",
+      "title": "Super QA א׳ — יסודות בדיקות תוכנה",
+      "description": "קורס בעברית על מחזור חיי מוצר ופיתוח תוכנה, סוגים וטכניקות של בדיקות ושלבי העבודה של בודק תוכנה.",
+      "type": "course",
+      "url": "https://campus.gov.il/course/digitaltech-gov-sqa-he/",
+      "courseIds": [
+        "web-development"
+      ],
+      "keywords": [],
+      "status": "published"
+    },
+    {
+      "id": "item-0110",
+      "addedAt": "2026-10-05T00:00:00Z",
+      "updatedAt": "2026-10-05T14:46:55Z",
+      "title": "Google Stitch — עיצוב ממשקים בעזרת בינה מלאכותית",
+      "description": "כלי של Google ליצירת עיצובי ממשק ואבות־טיפוס מתיאורים, תמונות וקוד, ולבחינת חלופות עיצוב לקראת פיתוח.",
+      "type": "tool",
+      "url": "https://stitch.withgoogle.com/",
+      "courseIds": [
+        "web-development",
+        "web-design",
+        "design"
+      ],
+      "keywords": [],
+      "status": "published"
+    },
+    {
+      "id": "item-0111",
+      "addedAt": "2026-10-05T00:00:00Z",
+      "updatedAt": "2026-10-05T14:46:55Z",
+      "title": "Awwwards — השראה לעיצוב אתרים",
+      "description": "אתר המציג אתרים מועמדים וזוכי פרסים, דוגמאות לרכיבי ממשק ומגמות בעיצוב ופיתוח אתרים.",
+      "type": "website",
+      "url": "https://www.awwwards.com/",
+      "courseIds": [
+        "web-design",
+        "design"
+      ],
+      "keywords": [],
+      "status": "published"
+    },
+    {
+      "id": "item-0112",
+      "addedAt": "2026-10-05T00:00:00Z",
+      "updatedAt": "2026-10-05T14:46:55Z",
+      "title": "Ueye — זיהוי טעויות בעיצוב ממשקים",
+      "description": "תרגול זיהוי שגיאות עיצוב בממשקים כגון טופס כניסה, תפריט נפתח, מסך הצטרפות ורכיבי מידע.",
+      "type": "game",
+      "url": "https://designcourse.com/app/course/ueye",
+      "courseIds": [
+        "web-design",
+        "design"
+      ],
+      "keywords": [],
+      "status": "published"
+    },
+    {
+      "id": "item-0113",
+      "addedAt": "2026-10-05T00:00:00Z",
+      "updatedAt": "2026-10-05T14:46:55Z",
+      "title": "עיצוב ממשקים באמצעות Google AI Studio",
+      "description": "הדרכה על שימוש ב-Google AI Studio לעיצוב ממשקי UI/UX.",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=ZRULbYpXtnQ",
+      "courseIds": [
+        "web-development",
+        "web-design"
+      ],
+      "keywords": [],
+      "status": "published"
+    },
+    {
+      "id": "item-0114",
+      "addedAt": "2026-10-05T00:00:00Z",
+      "updatedAt": "2026-10-05T14:46:55Z",
+      "title": "כלי AI בתהליך העבודה של מעצבי UX",
+      "description": "סקירה של שילוב כלי AI במחקר, יצירת רעיונות, עיצוב ממשק, כתיבה ושיפור העיצוב.",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=1ClbYm_mgpk",
+      "courseIds": [
+        "web-design"
+      ],
+      "keywords": [],
+      "status": "published"
+    },
+    {
+      "id": "item-0115",
+      "addedAt": "2026-10-05T00:00:00Z",
+      "updatedAt": "2026-10-05T14:46:55Z",
+      "title": "מדריך למתחילים ל־Figma AI",
+      "description": "הדגמת כלי AI ב-Figma ליצירת פריסות, שינוי שמות שכבות, עריכת טקסט, יצירת תמונות והוספת אינטראקציות.",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=qJoGFDHjLSE",
+      "courseIds": [
+        "web-design",
+        "design"
+      ],
+      "keywords": [],
+      "status": "published"
+    },
+    {
+      "id": "item-0116",
+      "addedAt": "2026-10-05T00:00:00Z",
+      "updatedAt": "2026-10-05T14:46:55Z",
+      "title": "קורס Figma בקמפוס IL",
+      "description": "קורס בעברית לעיצוב ממשקים ב-Figma, הכולל Wireframes, רכיבים וספריות עיצוב, אבות טיפוס אינטראקטיביים ושיתוף עם מפתחים.",
+      "type": "course",
+      "url": "https://campus.gov.il/course/digitaltech-gov-figma-he/",
+      "courseIds": [
+        "web-design",
+        "design"
+      ],
+      "keywords": [],
+      "status": "published"
+    },
+    {
+      "id": "item-0117",
+      "addedAt": "2026-10-05T00:00:00Z",
+      "updatedAt": "2026-10-05T14:46:55Z",
+      "title": "טכנולוגיות למידה: עדכון גרסה",
+      "description": "קורס על שילוב טכנולוגיות בהוראה ובלמידה, מודלים ללמידה מקוונת ושיתופית, משאבים פתוחים, ניתוח למידה ומשחקים לימודיים.",
+      "type": "course",
+      "url": "https://campus.gov.il/course/tau-acd-rfp5-digitalstudytechnologies-he/",
+      "courseIds": [
+        "learning-technologies"
+      ],
+      "keywords": [],
+      "status": "published"
+    },
+    {
+      "id": "item-0118",
+      "addedAt": "2026-10-05T00:00:00Z",
+      "updatedAt": "2026-10-05T14:46:55Z",
+      "title": "טכנולוגיות למידה: ממיקרו למאקרו",
+      "description": "תכנית המאגדת שלושה קורסים של האוניברסיטה הפתוחה, העוסקים בלמידה בעידן הדיגיטלי, בתכנון סביבות למידה ובהערכת הלומדים.",
+      "type": "course",
+      "url": "https://campus.gov.il/program/learning-technologies-micro-to-macro/",
+      "courseIds": [
+        "learning-technologies"
+      ],
+      "keywords": [],
+      "status": "published"
+    },
+    {
+      "id": "item-0119",
+      "addedAt": "2026-10-05T00:00:00Z",
+      "updatedAt": "2026-10-05T14:46:55Z",
+      "title": "מעבר לפרומפט — מיני־קורס באוריינות AI",
+      "description": "מיני־קורס של HIT הכולל שבע יחידות קצרות על אופן פעולת בינה מלאכותית יוצרת, כתיבת פרומפטים, שיפור תוצרים ושימוש אחראי באקדמיה.",
+      "type": "course",
+      "url": "https://kidum-hit.com/mini_course_beyond_prompt/main_site/",
+      "courseIds": [
+        "learning-technologies",
+        "learning-skills",
+        "web-development",
+        "web-design",
+        "design",
+        "unity"
+      ],
+      "keywords": [],
+      "status": "published"
+    },
+    {
+      "id": "item-0120",
+      "addedAt": "2026-10-05T00:00:00Z",
+      "updatedAt": "2026-10-05T14:46:55Z",
+      "title": "כלים קטנים גדולים — כלים דיגיטליים לחינוך",
+      "description": "אנציקלופדיה בעריכת אפרת מעטוף ובה סקירות ומדריכים לכלים דיגיטליים להוראה וללמידה, כגון יצירת תכנים, משחקים, מצגות וסביבות למידה.",
+      "type": "website",
+      "url": "https://digitalpedagogy.co/",
+      "courseIds": [
+        "learning-technologies"
+      ],
+      "keywords": [],
+      "status": "published"
+    },
+    {
+      "id": "item-0121",
+      "addedAt": "2026-10-05T14:51:59Z",
+      "updatedAt": "2026-10-05T14:51:59Z",
+      "title": "Accessible Color Palette Builder — פלטות צבעים נגישות",
+      "description": "כלי לבניית פלטות צבעים נגישות ולבחירת שילובי צבעים העומדים בדרישות נגישות.",
+      "type": "tool",
+      "url": "https://toolness.github.io/accessible-color-matrix/",
+      "courseIds": [
+        "web-development",
+        "web-design",
+        "accessibility",
+        "design"
+      ],
+      "keywords": [],
+      "status": "published"
+    }
+  ]
+}
