@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": "import-20261005-002",
-  "updatedAt": "2026-10-05T14:51:59Z",
+  "revision": "publication-25bbd43f-99a1-43f2-8758-183ca5c8deff",
+  "updatedAt": "2026-10-06T07:03:14.508Z",
   "courses": [
     {
       "id": "unity",
@@ -40,7 +40,15 @@
       "name": "מדעי המחשב"
     }
   ],
-  "synonymGroups": [],
+  "synonymGroups": [
+    {
+      "id": "terms-6b35d3d5-e43c-4d71-bc58-e606d94adce4",
+      "terms": [
+        "unity",
+        "יוניטי"
+      ]
+    }
+  ],
   "items": [
     {
       "id": "item-0001",
@@ -1773,6 +1781,22 @@
         "web-development",
         "web-design",
         "accessibility",
+        "design"
+      ],
+      "keywords": [],
+      "status": "published"
+    },
+    {
+      "id": "item-8573b812-2864-4cc9-b7d7-f1c5421c8ec3",
+      "addedAt": "2026-10-06T07:01:00.000Z",
+      "updatedAt": "2026-10-06T07:02:39.573Z",
+      "title": "אתר חוויתי למכירת קוקטיילים",
+      "description": "אתר המכי חווית משתמש גבוהה תוך הצגת סיפור אינטראקטיבי ליוזרים. על התפר בין אומנות לאתר.",
+      "type": "website",
+      "url": "https://santionispirits.com/",
+      "courseIds": [
+        "web-development",
+        "web-design",
         "design"
       ],
       "keywords": [],
