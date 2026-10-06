@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "login": {
-    "username": "lecturer",
-    "salt": "enrichment-local-demo-v1",
-    "passwordHash": "74af912fd0219f09dc366f520ca0cbeeacb2cfa99c790ea3b4bf44faa4b9aa43"
+    "username": "Admin",
+    "salt": "6e8549881c6184c83cbdc1eeb1769319",
+    "passwordHash": "9502b9bcf693f72618ab6d1e17f0cedbf41de0bdbde5ba441cf40cb83bb3d5cb"
   },
   "github": {
     "owner": "",
