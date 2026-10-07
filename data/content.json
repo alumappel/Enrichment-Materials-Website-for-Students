@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": "publication-b93fc777-1825-4acb-9919-0d514709b44e",
-  "updatedAt": "2026-10-07T06:18:06.636Z",
+  "revision": "publication-9890e80a-421a-47aa-81e5-1b342bab97ba",
+  "updatedAt": "2026-10-07T06:21:37.779Z",
   "courses": [
     {
       "id": "unity",
@@ -38,6 +38,10 @@
     {
       "id": "computer-science",
       "name": "מדעי המחשב"
+    },
+    {
+      "id": "ai-api",
+      "name": "תכנות מערכות משלבות AI עם API"
     }
   ],
   "synonymGroups": [
