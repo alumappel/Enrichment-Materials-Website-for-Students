@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": "publication-25bbd43f-99a1-43f2-8758-183ca5c8deff",
-  "updatedAt": "2026-10-06T07:03:14.508Z",
+  "revision": "publication-f510cc3f-3894-4e46-b2f0-c2102d1f540f",
+  "updatedAt": "2026-10-07T06:16:59.780Z",
   "courses": [
     {
       "id": "unity",
@@ -67,8 +67,8 @@
     {
       "id": "item-0002",
       "addedAt": "2026-10-05T00:00:00Z",
-      "updatedAt": "2026-10-05T14:46:55Z",
-      "title": "הכוונה עיצובית לאפליקציות שנבנות עם AI",
+      "updatedAt": "2026-10-07T06:16:59.780Z",
+      "title": "איך ליצר אתר בלי שהוא יראה כמו AI",
       "description": "שימוש בדוגמאות השראה, הנחיות מדויקות, מדריך סגנון ו-Figma כדי להגדיר את העיצוב בתהליך בניית אפליקציה עם AI.",
       "type": "video",
       "url": "https://www.instagram.com/janustiu/reel/DeF_n47Ob6B/",
