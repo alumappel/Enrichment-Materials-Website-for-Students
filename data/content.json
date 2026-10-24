@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": "publication-764093e5-2d49-48e3-9907-1bd11bebcc96",
-  "updatedAt": "2026-10-24T15:30:11.125Z",
+  "revision": "publication-8e08fcb9-d197-49e5-9658-cfa06414989f",
+  "updatedAt": "2026-10-24T15:31:46.551Z",
   "courses": [
     {
       "id": "unity",
@@ -1842,6 +1842,20 @@
       "description": "הסבר על יישום טכניקה ליצירת מגוון עשיר של דמויות במשחק ללא צורך בעיצוב נפרד לכל דמות.",
       "type": "video",
       "url": "https://www.instagram.com/p/DeIa5CwIUUi/",
+      "courseIds": [
+        "unity"
+      ],
+      "keywords": [],
+      "status": "published"
+    },
+    {
+      "id": "item-3facb02d-f29c-4f6d-8298-323f3ee12a16",
+      "addedAt": "2026-10-24T15:30:00.000Z",
+      "updatedAt": "2026-10-24T15:31:46.551Z",
+      "title": "Fist Full of Shrimp - יוטיובר יוניטי",
+      "description": "ערוץ יוטיוב מומלץ ליוניטי בדגש על VR",
+      "type": "video",
+      "url": "https://www.youtube.com/@FistFullofShrimp",
       "courseIds": [
         "unity"
       ],
