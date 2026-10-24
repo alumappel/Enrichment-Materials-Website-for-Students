@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": "publication-c38f2815-e315-4e3a-8f96-adb301160b50",
-  "updatedAt": "2026-10-24T15:23:52.463Z",
+  "revision": "publication-764093e5-2d49-48e3-9907-1bd11bebcc96",
+  "updatedAt": "2026-10-24T15:30:11.125Z",
   "courses": [
     {
       "id": "unity",
@@ -1828,6 +1828,20 @@
       "description": "סרטון מתומצת על העדכונים החדשים ביוניטי 6.6",
       "type": "video",
       "url": "https://www.youtube.com/watch?v=fGLEQtvCjLA",
+      "courseIds": [
+        "unity"
+      ],
+      "keywords": [],
+      "status": "published"
+    },
+    {
+      "id": "item-4ea37f87-5a39-4324-b533-e161de014c11",
+      "addedAt": "2026-10-24T15:28:00.000Z",
+      "updatedAt": "2026-10-24T15:30:11.125Z",
+      "title": "שיטת \"מר תפוח אדמה\" ליצירת דמויות מגוונות",
+      "description": "הסבר על יישום טכניקה ליצירת מגוון עשיר של דמויות במשחק ללא צורך בעיצוב נפרד לכל דמות.",
+      "type": "video",
+      "url": "https://www.instagram.com/p/DeIa5CwIUUi/",
       "courseIds": [
         "unity"
       ],
