@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": "publication-9890e80a-421a-47aa-81e5-1b342bab97ba",
-  "updatedAt": "2026-10-07T06:21:37.779Z",
+  "revision": "publication-c38f2815-e315-4e3a-8f96-adb301160b50",
+  "updatedAt": "2026-10-24T15:23:52.463Z",
   "courses": [
     {
       "id": "unity",
@@ -1816,6 +1816,20 @@
       "url": "https://www.instagram.com/p/DeISR8ajHEF/",
       "courseIds": [
         "computer-science"
+      ],
+      "keywords": [],
+      "status": "published"
+    },
+    {
+      "id": "item-9d5cbea8-7601-4422-a057-2be766630107",
+      "addedAt": "2026-10-24T15:23:00.000Z",
+      "updatedAt": "2026-10-24T15:23:52.463Z",
+      "title": "Unity 6.6: The Changes That Actually Matter",
+      "description": "סרטון מתומצת על העדכונים החדשים ביוניטי 6.6",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=fGLEQtvCjLA",
+      "courseIds": [
+        "unity"
       ],
       "keywords": [],
       "status": "published"
