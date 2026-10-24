@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": "publication-8e08fcb9-d197-49e5-9658-cfa06414989f",
-  "updatedAt": "2026-10-24T15:31:46.551Z",
+  "revision": "publication-5d2d5a96-a98c-4185-a72e-8934a21b9ee2",
+  "updatedAt": "2026-10-24T15:33:23.318Z",
   "courses": [
     {
       "id": "unity",
@@ -1856,6 +1856,20 @@
       "description": "ערוץ יוטיוב מומלץ ליוניטי בדגש על VR",
       "type": "video",
       "url": "https://www.youtube.com/@FistFullofShrimp",
+      "courseIds": [
+        "unity"
+      ],
+      "keywords": [],
+      "status": "published"
+    },
+    {
+      "id": "item-8a558893-1e56-452c-8747-faa2fe4d1afb",
+      "addedAt": "2026-10-24T15:32:00.000Z",
+      "updatedAt": "2026-10-24T15:33:23.318Z",
+      "title": "Getting started with Unity Version Control",
+      "description": "היכרות עם תיעוד השינויים ועבודה שיתופית ביוניטי",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=9IvXupmgl88",
       "courseIds": [
         "unity"
       ],
