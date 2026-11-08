@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": "publication-e8fc87d5-c49f-4041-8ba0-4832b32a3076",
-  "updatedAt": "2026-11-08T15:34:47.679Z",
+  "revision": "publication-6bd3b42c-e18f-4d05-8a69-707d4a12e208",
+  "updatedAt": "2026-11-08T15:36:47.364Z",
   "courses": [
     {
       "id": "unity",
@@ -1884,6 +1884,20 @@
       "description": "את המכיל מגוון רחב מאוד של משחקים לימודיים ב2D ו3D בדגש על תחומי המדעים.",
       "type": "website",
       "url": "https://www.coolmathgames.com/",
+      "courseIds": [
+        "unity"
+      ],
+      "keywords": [],
+      "status": "published"
+    },
+    {
+      "id": "item-a5b1ba7c-2e03-4d4e-a219-1ed2124f7be6",
+      "addedAt": "2026-11-08T15:34:00.000Z",
+      "updatedAt": "2026-11-08T15:36:47.364Z",
+      "title": "Papers, Please משחק",
+      "description": "סרטון הדגמה של משחק 2D מעולה. המשק מסמלץ עבודה של עובד בביקורת גבול בברית המועצות הסובייטית. המשחק מכיל חשיבה מעולה על הUI ועל פיתוח התקדמות הדרגתית, ומצליח להפוך נושא משמים למשחק מרתק.",
+      "type": "game",
+      "url": "https://www.youtube.com/watch?v=HXsyFRPSR70&t=3s",
       "courseIds": [
         "unity"
       ],
