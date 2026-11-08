@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": "publication-5d2d5a96-a98c-4185-a72e-8934a21b9ee2",
-  "updatedAt": "2026-10-24T15:33:23.318Z",
+  "revision": "publication-e8fc87d5-c49f-4041-8ba0-4832b32a3076",
+  "updatedAt": "2026-11-08T15:34:47.679Z",
   "courses": [
     {
       "id": "unity",
@@ -1870,6 +1870,20 @@
       "description": "היכרות עם תיעוד השינויים ועבודה שיתופית ביוניטי",
       "type": "video",
       "url": "https://www.youtube.com/watch?v=9IvXupmgl88",
+      "courseIds": [
+        "unity"
+      ],
+      "keywords": [],
+      "status": "published"
+    },
+    {
+      "id": "item-e0579f21-aa58-488f-9c35-3a5c7287b643",
+      "addedAt": "2026-11-08T15:33:00.000Z",
+      "updatedAt": "2026-11-08T15:34:47.679Z",
+      "title": "Cool Math Games אתר המכיל מגוון עצום של משחקים לימודיים",
+      "description": "את המכיל מגוון רחב מאוד של משחקים לימודיים ב2D ו3D בדגש על תחומי המדעים.",
+      "type": "website",
+      "url": "https://www.coolmathgames.com/",
       "courseIds": [
         "unity"
       ],
